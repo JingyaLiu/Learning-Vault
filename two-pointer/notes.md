@@ -45,6 +45,20 @@ The first pointer searches for something specific. Once found, a second pointer 
 - Three sum (fix one, use two pointers for remaining)
 - Subarray problems
 
+```
+Stage 1: Fix first pointer (i)
+[-4, -1, -1, 0, 1, 2]
+  i
+
+Stage 2: Use two pointers on remaining subarray
+[-4, -1, -1, 0, 1, 2]
+  i   L →        ← R
+
+Stage 3: Move to next fixed position
+[-4, -1, -1, 0, 1, 2]
+      i   L →   ← R
+```
+
 ---
 
 ## When to Use Two Pointers
