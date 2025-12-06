@@ -87,6 +87,13 @@ Step 3: L=1, R=7, heights=[8,3], area=min(8,3)×6=18
         
 ... continue until pointers meet
 
+
+How we move the pointers:
+--------------------------
+- If height[left] < height[right], move left pointer right
+- If height[left] > height[right], move right pointer left
+- If height[left] == height[right], move both pointers inward -> why? if both are equal, moving only one won't change the area.
+
 ================================================================================
 IMPLEMENTATION:
 ================================================================================
@@ -114,43 +121,12 @@ def max_area(height: List[int]) -> int:
         # Move the pointer at shorter line (greedy choice)
         if height[left] < height[right]:
             left += 1
-        else:
+        elif height[left] > height[right]:
             right -= 1
-    
-    return max_water
-
-
-def max_area_verbose(height: List[int]) -> int:
-    """
-    Same algorithm with detailed tracking (useful for understanding).
-    """
-    left, right = 0, len(height) - 1
-    max_water = 0
-    best_pair = (0, 0)
-    
-    print(f"Starting with full width: indices [{left}, {right}]")
-    
-    while left < right:
-        width = right - left
-        h = min(height[left], height[right])
-        area = width * h
-        
-        print(f"  L={left}(h={height[left]}), R={right}(h={height[right]})")
-        print(f"    Area = min({height[left]},{height[right]}) × {width} = {area}")
-        
-        if area > max_water:
-            max_water = area
-            best_pair = (left, right)
-            print(f"    NEW MAX: {max_water}")
-        
-        if height[left] < height[right]:
-            print(f"    Move L (shorter)")
+        else:
             left += 1
-        else:
-            print(f"    Move R (shorter or equal)")
             right -= 1
     
-    print(f"\nBest container: indices {best_pair}, area = {max_water}")
     return max_water
 
 

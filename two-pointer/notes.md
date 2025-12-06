@@ -133,7 +133,7 @@ def remove_duplicates(arr):
         if arr[read] != arr[read - 1]:
             arr[write] = arr[read]
             write += 1
-    return write
+    return write 
 ```
 
 ### Pattern 3: Three Sum (Staged + Inward)
@@ -145,12 +145,15 @@ def three_sum(nums):
         if i > 0 and nums[i] == nums[i-1]:
             continue
         left, right = i + 1, len(nums) - 1
+        # inward
         while left < right:
             total = nums[i] + nums[left] + nums[right]
             if total == 0:
                 result.append([nums[i], nums[left], nums[right]])
                 left += 1
                 right -= 1
+                # remove duplicates 
+
                 while left < right and nums[left] == nums[left-1]:
                     left += 1
             elif total < 0:
