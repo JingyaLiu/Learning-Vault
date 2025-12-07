@@ -111,15 +111,18 @@ def two_sum(nums: List[int], target: int) -> List[int]:
 def two_sum_alternative(nums: List[int], target: int) -> List[int]:
     """
     Alternative implementation using .get() method.
-    Slightly more verbose but some prefer this style.
+    Uses .get() with None default to check existence.
+    Functionally identical to two_sum(), just different style.
     """
     seen = {}
     
     for i, num in enumerate(nums):
         complement = target - num
         
-        if complement in seen:
-            return [seen[complement], i]
+        # .get() returns None if key doesn't exist
+        complement_index = seen.get(complement)
+        if complement_index is not None:
+            return [complement_index, i]
         
         seen[num] = i
     
