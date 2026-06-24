@@ -6,11 +6,12 @@ Interview prep vault for ML / Research Scientist industry roles.
 
 ## Start Here
 
-**在职、目标 2026 年 10–11 月 offer：**
+**Employed, targeting an offer Oct–Nov 2026:**
 
-1. [`ML_JOB_SEARCH_PLAN.md`](ML_JOB_SEARCH_PLAN.md) → **[Employed Track Jul–Nov](ML_JOB_SEARCH_PLAN.md#employed-track--jul-2026--nov-2026-start-here)**（主计划）
-2. [`process-tracker.md`](process-tracker.md) → 公司 pipeline + 里程碑
-3. **`lc` branch** → [INTERVIEW_PLAN.md](https://github.com/JingyaLiu/Learning-Vault/blob/lc/INTERVIEW_PLAN.md) 中 ⭐⭐ 清单（在职加速版见 ML 计划）
+1. [`THIS_WEEK.md`](THIS_WEEK.md) → **today's tasks** (updated weekly)
+2. [`ML_JOB_SEARCH_PLAN.md`](ML_JOB_SEARCH_PLAN.md) → **[Employed Track Jul–Nov](ML_JOB_SEARCH_PLAN.md#employed-track--jul-2026--nov-2026-start-here)** (primary plan)
+3. [`process-tracker.md`](process-tracker.md) → company pipeline + milestones
+4. **`lc` branch** → [INTERVIEW_PLAN.md](https://github.com/JingyaLiu/Learning-Vault/blob/lc/INTERVIEW_PLAN.md) ⭐⭐ list (employed accelerated version in ML plan)
 
 ---
 
