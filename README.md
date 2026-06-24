@@ -21,7 +21,7 @@ A pattern-based coding interview prep vault. Each folder covers one algorithmic 
 | [`two-pointer/`](two-pointer/) | [notes.md](two-pointer/notes.md) | 4 | Complete |
 | [`hash-maps/`](hash-maps/) | [notes.md](hash-maps/notes.md) | 3 | Complete |
 | [`sliding-windows/`](sliding-windows/) | [notes.md](sliding-windows/notes.md) | 2 | Complete |
-| [`binary-search/`](binary-search/) | [notes.md](binary-search/notes.md) | 0 | Notes only |
+| [`binary-search/`](binary-search/) | [notes.md](binary-search/notes.md) | 2 | Complete |
 | [`fast-slow-pointer/`](fast-slow-pointer/) | [notes.md](fast-slow-pointer/notes.md) | 0 | Notes only |
 | [`linked-list/`](linked-list/) | [notes.md](linked-list/notes.md) | 0 | Notes only |
 
@@ -43,6 +43,12 @@ A pattern-based coding interview prep vault. Each folder covers one algorithmic 
 | [01_two_sum.py](hash-maps/problems/01_two_sum.py) | Two Sum | Easy |
 | [02_valid_sudoku.py](hash-maps/problems/02_valid_sudoku.py) | Valid Sudoku | Medium |
 | [03_set_matrix_zeroes.py](hash-maps/problems/03_set_matrix_zeroes.py) | Set Matrix Zeroes | Medium |
+
+### Binary Search
+| File | Problem | Difficulty |
+|---|---|---|
+| [01_binary_search.py](binary-search/problems/01_binary_search.py) | Binary Search (LC 704) | Easy |
+| [02_search_first_last.py](binary-search/problems/02_search_first_last.py) | Find First and Last Position (LC 34) | Medium |
 
 ### Sliding Window
 | File | Problem | Difficulty |
