@@ -242,15 +242,43 @@ If you're still stuck after all 6: take a breath, write what you *do* know as co
 ## Quick Reference Card
 
 ```
+# --- Arrays & strings ---
 SORTED ARRAY + PAIR/TRIPLET      → Two Pointers (inward)
 BOTH ENDS / PALINDROME           → Two Pointers (inward)
 SUBARRAY/SUBSTRING + LONGEST     → Sliding Window (dynamic)
 SUBARRAY/SUBSTRING + SIZE K      → Sliding Window (fixed)
 "COMPLEMENT" / "SEEN BEFORE"     → Hash Map
 FREQUENCY COUNT                  → Hash Map / Counter
+RANGE SUM / SUBARRAY SUM = K     → Prefix Sum + Hash Map
+MATCHING BRACKETS / UNDO         → Stack
+MONOTONIC NEXT GREATER/SMALLER   → Monotonic Stack
+OVERLAPPING RANGES / MEETINGS    → Intervals (sort + merge)
+
+# --- Search ---
 SORTED + FIND POSITION           → Binary Search
 "O(log n)" REQUIRED              → Binary Search
+CUSTOM SORT / PARTITION          → Sort & Search (e.g. Dutch flag)
+
+# --- Linked list ---
 LINKED LIST + CYCLE              → Fast/Slow Pointers
 LINKED LIST + MIDDLE             → Fast/Slow Pointers
 LINKED LIST + MODIFICATION       → Dummy Node + Pointer Manipulation
+
+# --- Trees & graphs ---
+TREE TRAVERSAL / PATH / DEPTH    → Trees (BFS or DFS)
+PREFIX SEARCH ON WORDS           → Trie
+CONNECTED / SHORTEST PATH        → Graphs (BFS for shortest, DFS for explore)
+DEPENDENCY ORDER                 → Graphs (topological sort)
+
+# --- Decision patterns ---
+TOP K / KTH LARGEST / MEDIAN     → Heap
+LOCAL CHOICE → GLOBAL OPTIMAL    → Greedy
+ALL COMBOS / PERMUTATIONS        → Backtracking
+OPTIMAL SUBSTRUCTURE / COUNT WAYS → Dynamic Programming
+
+# --- Specialized ---
+XOR / SINGLE ELEMENT / BITS      → Bit Manipulation
+MODULO / PRIMES / MATRIX         → Math & Geometry
 ```
+
+See [INTERVIEW_PLAN.md](INTERVIEW_PLAN.md) for the full 16-week schedule across all topics.

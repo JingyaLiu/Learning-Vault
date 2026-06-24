@@ -6,15 +6,18 @@ A pattern-based coding interview prep vault. Each folder covers one algorithmic 
 
 ## How to Use This Vault
 
-1. **Read `PROBLEM_SOLVING_GUIDE.md` first** — it gives you a repeatable thinking process for any problem you face.
-2. Pick a pattern folder and read the `notes.md` to understand the concept.
-3. Try a problem from the practice list in the notes *before* reading the solution.
-4. Read the solution file — pay attention to the **INTUITION** section, not just the code.
-5. Re-solve it from memory the next day.
+1. **Read [`INTERVIEW_PLAN.md`](INTERVIEW_PLAN.md)** — 20-week schedule, FAANG must-know list, weekly tasks.
+2. **Read [`PROBLEM_SOLVING_GUIDE.md`](PROBLEM_SOLVING_GUIDE.md)** — repeatable thinking process for any problem.
+3. Pick a pattern folder and read the `notes.md` to understand the concept.
+4. Try a problem from the practice list in the notes *before* reading the solution.
+5. Read the solution file — pay attention to the **INTUITION** section, not just the code.
+6. Re-solve it from memory the next day.
 
 ---
 
 ## Patterns
+
+**In vault today** (notes + solutions):
 
 | Folder | Notes | Problems | Status |
 |---|---|---|---|
@@ -24,6 +27,8 @@ A pattern-based coding interview prep vault. Each folder covers one algorithmic 
 | [`binary-search/`](binary-search/) | [notes.md](binary-search/notes.md) | 2 | Complete |
 | [`fast-slow-pointer/`](fast-slow-pointer/) | [notes.md](fast-slow-pointer/notes.md) | 0 | Notes only |
 | [`linked-list/`](linked-list/) | [notes.md](linked-list/notes.md) | 0 | Notes only |
+
+**Study plan (2 problems/day, breadth → depth):** [`INTERVIEW_PLAN.md`](INTERVIEW_PLAN.md) — **start here.**
 
 ---
 
@@ -71,4 +76,7 @@ python3 sliding-windows/problems/longest_substring_unique_3.py
 
 ## Key Reference
 
-**Stuck on a problem?** → Read [`PROBLEM_SOLVING_GUIDE.md`](PROBLEM_SOLVING_GUIDE.md)
+| Situation | Open |
+|---|---|
+| What should I study today? | [`INTERVIEW_PLAN.md`](INTERVIEW_PLAN.md) |
+| Stuck on a problem? | [`PROBLEM_SOLVING_GUIDE.md`](PROBLEM_SOLVING_GUIDE.md) |
