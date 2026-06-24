@@ -4,21 +4,24 @@ Interview prep vault for ML / Research Scientist industry roles.
 
 ---
 
-## Two Tracks
+## Start Here
 
-| Track | Branch | Plan | Time/day |
-|---|---|---|---|
-| **General coding** (LeetCode) | [`lc`](https://github.com/JingyaLiu/Learning-Vault/tree/lc) | [`INTERVIEW_PLAN.md`](https://github.com/JingyaLiu/Learning-Vault/blob/lc/INTERVIEW_PLAN.md) | ~45–60 min · 2 problems |
-| **ML & research** | `main` | [`ML_JOB_SEARCH_PLAN.md`](ML_JOB_SEARCH_PLAN.md) | ~90 min · 1 focus block |
+**在职、目标 2026 年 10–11 月 offer：**
 
-Run both in parallel. Alisa's [job search notes](https://alisawuffles.github.io/blog/job-search/) — ML coding and technical discussion matter as much as LeetCode for RS/MTS loops.
+1. [`ML_JOB_SEARCH_PLAN.md`](ML_JOB_SEARCH_PLAN.md) → **[Employed Track Jul–Nov](ML_JOB_SEARCH_PLAN.md#employed-track--jul-2026--nov-2026-start-here)**（主计划）
+2. [`process-tracker.md`](process-tracker.md) → 公司 pipeline + 里程碑
+3. **`lc` branch** → [INTERVIEW_PLAN.md](https://github.com/JingyaLiu/Learning-Vault/blob/lc/INTERVIEW_PLAN.md) 中 ⭐⭐ 清单（在职加速版见 ML 计划）
 
 ---
 
-## Start Here
+## Two Tracks
 
-1. **LeetCode:** checkout `lc` → [INTERVIEW_PLAN.md](https://github.com/JingyaLiu/Learning-Vault/blob/lc/INTERVIEW_PLAN.md) (Day 1 done Jun 23)
-2. **Everything else:** [`ML_JOB_SEARCH_PLAN.md`](ML_JOB_SEARCH_PLAN.md) — Phase 1 Week 1 → [CS336 Lec 1–2](https://cs336.stanford.edu/)
+| Track | Branch | Plan | Time/week |
+|---|---|---|---|
+| **General coding** (LeetCode) | [`lc`](https://github.com/JingyaLiu/Learning-Vault/tree/lc) | ⭐⭐ checklist in ML plan | ~3 hr |
+| **ML & research** | `cursor/ml-job-search-plan` | [`ML_JOB_SEARCH_PLAN.md`](ML_JOB_SEARCH_PLAN.md) | ~9–11 hr |
+
+**Total:** ~12–14 hr/week (employed). Alisa's [job search notes](https://alisawuffles.github.io/blog/job-search/).
 
 ---
 
@@ -30,25 +33,30 @@ Run both in parallel. Alisa's [job search notes](https://alisawuffles.github.io/
 | [`technical-discussion/`](technical-discussion/) | Rapid-fire Qs + experiment design prompts |
 | [`research/`](research/) | Project pitch template + CV deep-dive prep |
 | [`behavioral/`](behavioral/) | STAR story bank |
-| [`math/`](math/) | Probability / LA / derivations |
+| [`math/`](math/) | Probability / LA / derivations (on demand) |
 | [`job-talk/`](job-talk/) | Industry job talk outline |
 | [`negotiation/`](negotiation/) | Offer negotiation scripts |
-| [`process-tracker.md`](process-tracker.md) | Applications pipeline |
+| [`process-tracker.md`](process-tracker.md) | Applications + milestones |
+| [`interview-journal.md`](interview-journal.md) | Post-interview notes |
 
 ---
 
-## Daily Split (recommended)
+## Weekly Rhythm (employed)
 
 ```
-Morning   →  lc: 2 problems (PROBLEM_SOLVING_GUIDE workflow)
-Afternoon →  ML plan: Phase week/day task
-Optional  →  1 behavioral story OR process admin (Sun only)
+Mon/Wed/Fri   →  60 min  LC (⭐⭐)
+Tue/Thu       →  60 min  ML drill
+Wed           →  30 min  outreach (Jul–Aug)
+Sat           →  3 hr    ML deep block
+Sun           →  2 hr    process + behavioral + journal
 ```
 
 ---
 
 ## Key Resources
 
-- [Stanford CS336](https://cs336.stanford.edu/) — Phase 1 lectures (2026) + [2025 assignments](https://cs336.stanford.edu/spring2025/) for self-study
-- [Alisa LLM notes](https://alisawuffles.github.io/assets/files/llm_notes.pdf) — breadth checklist
-- [Alisa job search blog](https://alisawuffles.github.io/blog/job-search/) — process + interview types
+- [Stanford CS336](https://cs336.stanford.edu/) — Lec 1–4, 10, 15–16
+- [CS336 2025 assignments](https://cs336.stanford.edu/spring2025/) — A1 self-study
+- [Alisa LLM notes](https://alisawuffles.github.io/assets/files/llm_notes.pdf)
+- [Alisa job search blog](https://alisawuffles.github.io/blog/job-search/)
+

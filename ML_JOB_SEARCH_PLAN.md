@@ -2,12 +2,304 @@
 
 > **Companion to:** [`lc` branch](https://github.com/JingyaLiu/Learning-Vault/tree/lc) → LeetCode / general coding (`INTERVIEW_PLAN.md`)  
 > **Inspired by:** [Alisa's industry job search notes](https://alisawuffles.github.io/blog/job-search/)  
-> **Your pace:** ~90 min/day on ML topics + keep `lc` at 2 problems/day  
-> **Start here:** [Daily split](#daily-split-lc--ml) → [Phase 1](#phase-1--foundations-weeks-1–4)
+> **Start here (employed):** [Employed Track — Jul → Nov 2026](#employed-track--jul-2026--nov-2026-start-here)  
+> **Start here (full-time prep):** [Phase 1](#phase-1--foundations-weeks-1–4)
 
-**Last updated:** June 23, 2026  
-**Current:** Phase 1 · Week 1 · not started  
-**Legend:** 🔴 = highest ROI · 🟡 = common · ⚪ = company-specific
+**Last updated:** July 2026  
+**Profile:** Full-time employee · ~12–14 hrs/week · target offer **Oct–Nov 2026**  
+**Legend:** 🔴 = highest ROI · 🟡 = common · ⚪ = company-specific · ✅ = milestone
+
+---
+
+## Employed Track — Jul 2026 → Nov 2026 (START HERE)
+
+**Why this calendar:** Tech hiring peaks **Sep–Oct**. Jul–Aug is slow (vacations) but ideal for **prep + referrals**. Employed ML/RS searches realistically take **4–6 months** ([data](https://asmekal.github.io/blog/posts/interviews-2025-ml-research-engineer-uk)).
+
+```
+Jul–Aug        Sep–Oct           Oct–Nov
+准备+内推  →   面试高峰    →    谈 offer / 签约
+练手面试       目标公司 onsite
+```
+
+### Targets
+
+| Milestone | Date | Done |
+|---|---|---|
+| 15 家公司 list + pitch 初稿 | Jul 13 | [ ] |
+| 8 条 behavioral STAR 故事 | Jul 20 | [ ] |
+| attention + MHA 45 min 内写完 | Jul 27 | [ ] |
+| 第一批内推发出 (≥5) | Jul 31 | [ ] |
+| 第一个 phone screen | Aug 31 | [ ] |
+| ≥2 家公司在流程中 | Sep 15 | [ ] |
+| 第一个 onsite | Sep 30 | [ ] |
+| 第一个 written offer | Oct 31 | [ ] |
+| 签约 | Nov 15 | [ ] |
+
+### Weekly time budget (~12–14 hrs)
+
+| Slot | Time | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+|---|---|---|---|---|---|---|---|---|
+| **LC** | 60 min | ⭐⭐ | — | ⭐⭐ | — | ⭐⭐ | — | re-solve |
+| **ML** | 60 min | — | drill | — | drill | — | **3 hr** | — |
+| **Process** | 30–60 min | — | — | outreach | — | — | — | **2 hr** |
+| **Rapid-fire** | 15 min | — | 10 Qs | — | 10 Qs | — | — | — |
+
+**Rules**
+- ML coding drills: **no AI**
+- **Never skip Sunday process block** in Jul–Aug (内推 > 多刷一道题)
+- 面试季 (Sep+)：按 [Per-Interview Cram](#per-interview-cram-checklist-3-days-before) 准备，维持性复习即可
+- 告诉 recruiter 你在职，每轮之间需要 **≥1 周**
+
+---
+
+## July 2026 — 准备冲刺 + 开管道
+
+**主题：** 最小可行 ML 能力 + pitch/behavioral + 内推。还不追求大厂 onsite。
+
+### Jul W1 · Jul 7–13 — 开图
+
+| 块 | 任务 | 文件 | Done |
+|---|---|---|---|
+| LC ×3 | Two Sum (1), Valid Anagram (242), Group Anagrams (49) | `lc` hash-maps | [ ] |
+| ML ×2 | CS336 Lec 1–2 (1.25×); skim shape conventions | [ml-coding/notes.md](ml-coding/notes.md) | [ ] |
+| ML Sat | Lec 3 + 画 decoder-only 架构图 | CS336 | [ ] |
+| Process Sun | 列 15 目标公司/团队; 每一家 1 个联系人 | [process-tracker.md](process-tracker.md) | [ ] |
+| Process Sun | 填 flagship project 初稿 (2-min pitch) | [research/pitch-template.md](research/pitch-template.md) | [ ] |
+
+### Jul W2 · Jul 14–20 — 第一个 drill
+
+| 块 | 任务 | Done |
+|---|---|---|
+| LC ×3 | Valid Palindrome (125), Two Sum II (167), 3Sum (15) | [ ] |
+| ML ×2 | [01_attention.py](ml-coding/drills/01_attention.py) → [02_mha.py](ml-coding/drills/02_mha.py) | [ ] |
+| ML Sat | Lec 4 + Illustrated GPT-2; timed attention 45 min | [ ] |
+| Process Sun | behavioral 故事 1–4 | [behavioral/story-bank.md](behavioral/story-bank.md) | [ ] |
+| Process Sun | 发 **2 条** 内推/暖消息 | [ ] |
+
+### Jul W3 · Jul 21–27 — mini LM
+
+| 块 | 任务 | Done |
+|---|---|---|
+| LC ×3 | Longest Substring (3), Min Window (76), Container Water (11) | [ ] |
+| ML ×2 | [03_transformer_block.py](ml-coding/drills/03_transformer_block.py) → [04_mini_lm.py](ml-coding/drills/04_mini_lm.py) | [ ] |
+| ML Sat | causal loss + AdamW; log times in [practice-log.md](ml-coding/practice-log.md) | [ ] |
+| Process Sun | behavioral 故事 5–8 + question map | [ ] |
+| Process Sun | 发 **2 条** 内推; 投 **1 家练手公司** | [ ] |
+
+### Jul W4 · Jul 28 – Aug 3 — 推理 + 快问快答
+
+| 块 | 任务 | Done |
+|---|---|---|
+| LC ×3 | Merge Intervals (56), Meeting Rooms II (253), Product Except Self (238) | [ ] |
+| ML ×2 | Lec 10 概念; [05_greedy_decode.py](ml-coding/drills/05_greedy_decode.py); KV cache 口述 | [ ] |
+| ML Sat | rapid-fire §A 刷 30 题; 标记不会的 | [technical-discussion/notes.md](technical-discussion/notes.md) | [ ] |
+| Process Sun | 读 [negotiation/playbook.md](negotiation/playbook.md) 一遍 | [ ] |
+| Process Sun | 发 **3 条** 内推; pitch 录 5-min 版自听 | [ ] |
+
+**Jul 出口标准**
+- [ ] attention + MHA < 45 min
+- [ ] 5-min research pitch 流利
+- [ ] 8 STAR 故事写完
+- [ ] ≥5 内推已发出; 1 家已投递
+
+---
+
+## August 2026 — 练手面试 + 巩固
+
+**主题：** 暑假流程慢，正好用练手公司校准题型。LC 切到 trees/graphs。
+
+### Aug W1 · Aug 4–10
+
+| 块 | 任务 | Done |
+|---|---|---|
+| LC ×3 | Reverse LL (206), LRU Cache (146), Max Depth (104) | [ ] |
+| ML ×2 | **Timed:** full transformer forward 90 min | [ ] |
+| ML Sat | Lec 15–16 (SFT/RLHF) + GRPO skim | [ ] |
+| Process Sun | 投 1–2 练手; 更新 tracker | [ ] |
+| Process Sun | 1 次 mock research 对话 (自录) | [ ] |
+
+### Aug W2 · Aug 11–17
+
+| 块 | 任务 | Done |
+|---|---|---|
+| LC ×3 | Level Order (102), Validate BST (98), LCA (236) | [ ] |
+| ML ×2 | ML drill rotation (#1–3); 复习 weak rapid-fire Qs | [ ] |
+| ML Sat | experiment design §B 写 2 题答案 + 口述 | [ ] |
+| Process Sun | 跟进 stale 内推 (>1 周无回复) | [ ] |
+
+### Aug W3 · Aug 18–24
+
+| 块 | 任务 | Done |
+|---|---|---|
+| LC ×3 | Number of Islands (200), Course Schedule (207), Clone Graph (133) | [ ] |
+| ML ×2 | drill rotation; 1 道 LC ⭐⭐ 限时 45 min | [ ] |
+| Process | **第一个 phone screen** (或 mock ML coding 60 min) | [ ] |
+| Process Sun | 面完写 [interview-journal.md](interview-journal.md) | [ ] |
+
+### Aug W4 · Aug 25–31
+
+| 块 | 任务 | Done |
+|---|---|---|
+| LC ×3 | Kth Largest (215), Top K (347), Merge K Lists (23) | [ ] |
+| ML ×2 | 针对已投公司填 §D cram sheet ×2 | [technical-discussion/notes.md](technical-discussion/notes.md) | [ ] |
+| ML Sat | mock: ML coding 60 min | [ ] |
+| Process Sun | 投 **2 家目标公司** (非练手) | [ ] |
+
+**Aug 出口标准**
+- [ ] ≥15 ⭐⭐ LC 做过; 5 道可默写
+- [ ] 1 次真实或高保真 mock 面试
+- [ ] transformer forward 90 min timed pass
+- [ ] rapid-fire §A ≥ 70%
+
+---
+
+## September 2026 — 面试高峰
+
+**主题：** 维持性复习 (30 min/day) + 面试优先。周末补弱项。
+
+### 每周固定节奏 (面试季)
+
+| 每天 | 有面试 | 无面试 |
+|---|---|---|
+| 平日 30 min | cram sheet 复习 | 1 ⭐⭐ LC re-solve |
+| 平日 30 min | — | 10 rapid-fire Qs |
+| 周六 2 hr | 弱项补课 | 1 ML drill 维持 |
+| 周日 1 hr | [interview-journal](interview-journal.md) + 下周排期 | outreach 跟进 |
+
+### Sep 里程碑周
+
+| 周 | 面试目标 | 学习 | Done |
+|---|---|---|---|
+| Sep W1 | 完成练手流程或拿 feedback | 弱项 from journal | [ ] |
+| Sep W2 | ≥1 目标公司 phone screen | cram for that company | [ ] |
+| Sep W3 | **≥2 家并行流程** | behavioral mock 30 min | [ ] |
+| Sep W4 | 第一个 onsite 或 virtual onsite | job-talk outline 若需要 | [job-talk/outline.md](job-talk/outline.md) |
+
+**Sep 出口标准**
+- [ ] ≥2 家公司在流程中
+- [ ] 完成 ≥1 onsite
+- [ ] 每轮面试有 journal 条目
+
+---
+
+## October 2026 — onsite + offer
+
+| 周 | 重点 | Done |
+|---|---|---|
+| Oct W1–2 | 集中 onsite; 面前一天 cram | [ ] |
+| Oct W3 | 第一个 verbal/written offer → [negotiation/playbook.md](negotiation/playbook.md) | [ ] |
+| Oct W4 | 对齐多个 offer 截止日期; teammate 1:1 | [ ] |
+
+**Oct 出口标准**
+- [ ] ≥1 written offer in hand
+- [ ] 谈判脚本用过至少一次
+
+---
+
+## November 2026 — 决策 + 签约
+
+| 任务 | Done |
+|---|---|
+| 比较 offer (base / equity / vest / level) | [ ] |
+| 谈妥 level + comp; 拿 written final | [ ] |
+| **签约** (target Nov 15) | [ ] |
+| 规划离职 notice period | [ ] |
+
+---
+
+## LC 加速路径 (在职版)
+
+不走完整 Pass 1–3。目标 **Aug 31** 前完成下方 ⭐⭐ 清单。
+
+| # | Problem | LC | By |
+|---|---|---|---|
+| 1 | Two Sum | 1 | Jul W1 |
+| 2 | Valid Parentheses | 20 | Jul W4 |
+| 3 | Longest Substring | 3 | Jul W3 |
+| 4 | Min Window | 76 | Jul W3 |
+| 5 | 3Sum | 15 | Jul W2 |
+| 6 | Container Water | 11 | Jul W3 |
+| 7 | Product Except Self | 238 | Jul W4 |
+| 8 | Merge Intervals | 56 | Jul W4 |
+| 9 | Meeting Rooms II | 253 | Jul W4 |
+| 10 | Binary Search | 704 | done (`lc`) |
+| 11 | Search Range | 34 | done (`lc`) |
+| 12 | Search Rotated | 33 | Aug W2 |
+| 13 | Reverse Linked List | 206 | Aug W1 |
+| 14 | LRU Cache | 146 | Aug W1 |
+| 15 | Number of Islands | 200 | Aug W3 |
+| 16 | Course Schedule | 207 | Aug W3 |
+| 17 | Max Depth / Level Order | 104/102 | Aug W2 |
+| 18 | Validate BST | 98 | Aug W2 |
+| 19 | LCA | 236 | Aug W2 |
+| 20 | Kth Largest | 215 | Aug W4 |
+| 21 | Top K Frequent | 347 | Aug W4 |
+| 22 | Merge K Lists | 23 | Aug W4 |
+| 23 | Subsets | 78 | Sep W1 |
+| 24 | Combination Sum | 39 | Sep W1 |
+| 25 | Climbing Stairs | 70 | Sep W1 |
+| 26 | House Robber | 198 | Sep W2 |
+| 27 | Coin Change | 322 | Sep W2 |
+| 28 | Word Break | 139 | Sep W2 |
+| 29 | LIS | 300 | Sep W3 |
+| 30 | Trapping Rain Water | 42 | Sep W3 |
+| 31 | Word Ladder | 127 | Sep W4 |
+
+**Sep+:** 只 re-solve，不做新题。面试前夜：1 道 ⭐⭐ 默写。
+
+---
+
+## ML 能力里程碑 (在职版)
+
+| 日期 | 必须达到 | 验证方式 |
+|---|---|---|
+| Jul 27 | attention + MHA | timed drills |
+| Aug 10 | mini LM + loss | [04_mini_lm.py](ml-coding/drills/04_mini_lm.py) |
+| Aug 24 | full transformer 90 min | blank file timed |
+| Aug 31 | rapid-fire §A 70% | 20 Qs cold |
+| Sep 15 | per-company cram 熟练 | §D sheets |
+| Ongoing | KV cache + decoding 能口述 | whiteboard |
+
+**CS336 (在职只看这些):** Lec 1–4, 10, 15–16。A1 drills 必做; A2–A5 选看。
+
+---
+
+## 面试季每周 checklist
+
+复制到日历，每周日打勾：
+
+```
+[ ] process-tracker 更新
+[ ] interview-journal 补完
+[ ] 跟进 ≥2 stale threads
+[ ] 1 ML drill 或 1 ⭐⭐ re-solve
+[ ] 下轮面试 cram sheet 写好
+[ ] 睡眠 ≥7h 面试前夜
+```
+
+---
+
+## 能量不足时 (在职必看)
+
+| 状态 | 做 | 不算失败 |
+|---|---|---|
+| 正常日 | 60 min LC **或** ML + 通勤听 pitch 复述 | — |
+| 加班日 | 10 rapid-fire Qs only | 跳过 LC |
+| 面试日 | 仅 cram + 睡眠 | 跳过一切新课 |
+| 周末只半天 | Process Sun 块优先 | ML Sat 可推迟 |
+
+---
+
+## 与原 12 周计划的关系
+
+| 原 Phase | 在职轨道 |
+|---|---|
+| Phase 1 (4 wk) | **Jul** — 压缩到 4 周 |
+| Phase 2 (4 wk) | **Aug** — drill rotation + mocks |
+| Phase 3 (4 wk) | **Sep** — 面试代替 mock week |
+| Phase 4 | **Oct–Nov** — negotiation |
+
+原 Phase 1–4 细节仍作参考; 在职以 **本节周表** 为准。
 
 ---
 
@@ -266,13 +558,14 @@ Parallel to studying — track in a spreadsheet or [process-tracker.md](process-
 
 ## Progress at a Glance
 
-| Phase | Weeks | Focus | Status |
+| Track | Period | Focus | Status |
 |---|---|---|---|
-| 1 Foundations | 1–4 | CS336 + transformer | not started |
-| 2 Drills | 5–8 | ML coding rotation | not started |
-| 3 Mocks | 9–12 | Research + behavioral + talk | not started |
-| 4 Negotiation | offers | Comp + decisions | — |
-| lc (parallel) | 1–11 | LeetCode Pass 1–3 | Day 1 done (`lc`) |
+| **Employed (primary)** | Jul–Nov 2026 | [周表](#employed-track--jul-2026--nov-2026-start-here) | Jul W1 |
+| Phase 1 Foundations | weeks 1–4 | CS336 + transformer | reference |
+| Phase 2 Drills | weeks 5–8 | ML coding rotation | reference |
+| Phase 3 Mocks | weeks 9–12 | Research + behavioral | reference |
+| Phase 4 Negotiation | offers | Comp + decisions | Oct–Nov |
+| lc (parallel) | ongoing | ⭐⭐ checklist | Day 1 done |
 
 ---
 
@@ -303,4 +596,4 @@ Parallel to studying — track in a spreadsheet or [process-tracker.md](process-
 
 ---
 
-*90 min ML + 2 LC problems. Tailor each week to your next interview. Circle back to weak drills like you circle back to weak LC patterns.*
+*Employed: ~12 hrs/week. Jul–Aug 准备, Sep–Oct 面试, Oct–Nov 签约. 以 [Employed Track](#employed-track--jul-2026--nov-2026-start-here) 周表为准.*
