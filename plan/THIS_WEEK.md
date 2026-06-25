@@ -1,6 +1,7 @@
 # This Week · Jul W1 (adjusted)
 
 > **Profile:** Jingya Liu · Staff DS @ Walmart · [LinkedIn](https://www.linkedin.com/in/jingya-tina-liu/) · ~12–14 hr/week  
+> **Target pillars:** **R** retrieval/search · **X** CX FM · **P** pretrain · **T** post-train  
 > **Branch:** `lc` for LC · this branch for ML/process  
 > **Last updated:** Tue — CS336 Lec 1 moved off Tuesday (skipped, too late)
 
@@ -8,8 +9,16 @@
 
 ## Week milestone (Sun)
 
-- [ ] 15 companies in [process-tracker.md](../job-search/process-tracker.md)
-- [ ] 2-min pitch draft in [research/pitch-template.md](../research/pitch-template.md)
+- [ ] 15 companies in [process-tracker.md](../job-search/process-tracker.md) — tag **R / X / P / T** per row
+- [ ] Pitch **R (retrieval)** + **X (CX FM)** drafts — 2 min each · [pitch-template](../research/pitch-template.md#pitch-variants-by-pillar)
+
+---
+
+## Pillar focus this week
+
+**Primary:** **R + X** (Amazon Ads warm path + Sierra/Microsoft fit)  
+**Thu rapid-fire:** [§G-R retrieval](../technical-discussion/notes.md#g-r--retrieval--ranking--search) (10 Qs)  
+**Defer:** heavy **P** (pretrain scaling) until Aug W2; **T** until Aug W1 Sat
 
 ---
 
@@ -27,8 +36,8 @@
 
 | Block | Task |
 |---|---|
-| **LC** 60 min | `lc` Day 2 Hash Maps — read `hash-maps/notes.md`, then **Two Sum (1)** + **Valid Anagram (242)** |
-| **Process** 30 min | Start company list in [process-tracker.md](../job-search/process-tracker.md) (5–8 names) |
+| **LC** 60 min | `lc` Day 2 Hash Maps — **Two Sum (1)** + **Valid Anagram (242)** |
+| **Process** 30 min | Tag 5–8 companies with **R/X/P/T** in [process-tracker](../job-search/process-tracker.md) |
 
 ---
 
@@ -36,8 +45,8 @@
 
 | Block | Task |
 |---|---|
-| **ML** 60 min | **CS336 Lec 1** (moved from Tue) + skim [ml-coding/notes.md](../ml-coding/notes.md) |
-| **Rapid-fire** 15 min | 10 questions from [technical-discussion/notes.md](../technical-discussion/notes.md) §A |
+| **ML** 60 min | **CS336 Lec 1** + skim [ml-coding/notes.md](../ml-coding/notes.md) |
+| **Rapid-fire** 15 min | 10 Qs from [§G-R retrieval](../technical-discussion/notes.md#g-r--retrieval--ranking--search) |
 
 ---
 
@@ -46,7 +55,7 @@
 | Block | Task |
 |---|---|
 | **LC** 60 min | `lc` Day 3 Two Pointers — **Valid Palindrome (125)** + **Two Sum II (167)** |
-| *or* | Catch-up buffer if Wed/Fri LC slipped |
+| *or* | Catch-up buffer |
 
 ---
 
@@ -54,7 +63,7 @@
 
 | Block | Task |
 |---|---|
-| **ML** 3 hr | CS336 **Lec 2** + **Lec 3**; draw decoder-only architecture from memory |
+| **ML** 3 hr | CS336 **Lec 2** + **Lec 3**; decoder-only architecture from memory |
 
 ---
 
@@ -62,7 +71,7 @@
 
 | Block | Task |
 |---|---|
-| **Process** 2 hr | Finish 15 companies + 1 contact each; draft 2-min pitch |
+| **Process** 2 hr | 15 companies + pillars; draft pitch **R** + **X** |
 | **LC** 30 min | Re-solve LC 704 from memory |
 
 ---
@@ -73,7 +82,7 @@
 |---|---|
 | Wed | Two Sum only |
 | Thu | Watch half of Lec 1 |
-| Sun | **Do not skip** — process block only |
+| Sun | **Do not skip** — process + pitch **R** outline only |
 
 ---
 

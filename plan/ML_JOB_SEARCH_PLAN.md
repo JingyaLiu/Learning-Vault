@@ -2,11 +2,12 @@
 
 > **Companion to:** [`lc` branch](https://github.com/JingyaLiu/Learning-Vault/tree/lc) → LeetCode / general coding (`INTERVIEW_PLAN.md`)  
 > **Inspired by:** [Alisa's industry job search notes](https://alisawuffles.github.io/blog/job-search/)  
-> **Start here (employed):** [Employed Track — Jul → Nov 2026](#employed-track--jul-2026--nov-2026-start-here)  
+> **Start here (employed):** [Employed Track](#employed-track--jul-2026--nov-2026-start-here) → **[Four-pillar prep](#four-pillar-prep-your-target-areas)**  
 > **Start here (full-time prep):** [Phase 1](#phase-1--foundations-weeks-1–4)
 
 **Last updated:** July 2026  
-**Profile:** **Jingya Liu** · Staff Data Scientist @ Walmart Global Tech (Aug 2022–present) · [LinkedIn](https://www.linkedin.com/in/jingya-tina-liu/) · ~12–14 hrs/week prep · target offer **Oct–Nov 2026**  
+**Profile:** **Jingya Liu** · Staff DS @ Walmart · [LinkedIn](https://www.linkedin.com/in/jingya-tina-liu/) · ~12–14 hrs/week · offer **Oct–Nov 2026**  
+**Target areas:** **R** retrieval/ranking/search · **X** CX FM · **P** pretraining · **T** post-training  
 **Legend:** 🔴 = highest ROI · 🟡 = common · ⚪ = company-specific · ✅ = milestone
 
 ---
@@ -52,6 +53,72 @@ practice loops   target onsites
 
 ---
 
+## Four-pillar prep (your target areas)
+
+You want roles across **four research pillars** — not "agentic" as a catch-all. Prep rotates by pillar; companies map to 1–3 pillars each.
+
+### The four pillars
+
+| Pillar | What you want | Walmart proof | Top companies in pipeline | Study focus |
+|---|---|---|---|---|
+| **R — Retrieval / ranking / search** | Large-scale IR, ads, enterprise search | Ads retrieval phase | Amazon Ads, Google Kirkland, Glean, SeekOut, Perplexity | §G-R · pitch **R** · LC medium-high |
+| **X — CX foundation model** | Domain FM for customer experience | CX FM + seller agent | Sierra, Decagon, Microsoft, ServiceNow, Snowflake | §G-X · pitch **X** · eval + data mix |
+| **P — Pretraining** | Data, scale, architecture, open models | PhD + FM scale story; gap = industrial pretrain | AI2, Meta, OpenAI, Google DeepMind, Hugging Face | CS336 Lec 7–9, 13–14 · §G-P · pitch **P** |
+| **T — Post-training** | SFT, RLHF/DPO/GRPO, alignment, eval | CX FM post-train pipeline | Databricks, Scale, Cohere, NVIDIA NeMo, Reddit | CS336 Lec 15–16 · §G-T · pitch **T** |
+
+**Your unified story:** Same Walmart arc — retrieval (**R**) → domain CX FM (**X**) built with post-train (**T**); PhD + citations support pretrain labs (**P**).
+
+**Pitch variants:** [research/pitch-template.md](../research/pitch-template.md#pitch-variants-by-pillar)  
+**Cram sheets:** [technical-discussion/notes.md](../technical-discussion/notes.md) §D–§G  
+**Pipeline:** [process-tracker.md](../job-search/process-tracker.md) — `Pillars` column
+
+### Study mix by pillar (~12–14 hr/week)
+
+```
+        R (retrieval)   X (CX FM)   P (pretrain)   T (post-train)   LC
+Jul     25%             25%         20%            20%              10%
+Aug     25%             20%         15%            25%              15%
+Sep     30%*            25%*        10%            25%*             10%  *whichever interview is active
+```
+
+**Jul–Aug pillar rotation (Thu rapid-fire):**
+- Jul W3 → **R** + **X** pitch drafts
+- Jul W4 → §G-R retrieval (10 Qs)
+- Aug W1 → §G-T post-train + CS336 Lec 15–16
+- Aug W2 → §G-X CX FM eval + §G-P pretrain scaling (10 Qs each)
+- Aug W3 → §G-R + Amazon Ads cram
+- Aug W4 → §G-X Microsoft/Sierra cram
+
+### What to deprioritize
+
+| Topic | Why |
+|---|---|
+| Pure CV / OD trivia | One 60-sec bridge only — lead **R/X/T/P** |
+| Generic "agentic" framing | Reframe as **X** (domain FM) or **R** (search grounding) |
+| CS336 A2–A5 systems | Optional unless **P** infra interview |
+| Medical imaging depth | PhD hook only |
+
+### Application order (by pillar fit)
+
+```
+Aug practice   Glean (R) · Sierra (X) · Databricks/AI2 (T/P)
+Aug referral   Amazon Ads LI 4173762699 (R) — warm path first
+Sep target     Apple FM Researcher + Search (local) · Microsoft Copilot · Snowflake Retrieval
+Sep target     Google Cloud AI Kirkland · NVIDIA NeMo · ByteDance Seattle
+Sep–Oct dream  Meta Llama VLLM Bellevue · DeepMind Kirkland · OpenAI/Anthropic
+```
+
+**Re-scan monthly:** [LINKEDIN_ROLE_SCAN.md](../job-search/LINKEDIN_ROLE_SCAN.md)
+
+### 3-day cram by pillar
+
+**R — Retrieval/search:** dual-tower vs cross-encoder · ANN recall@k · NDCG vs recall tradeoff · negative sampling · cold start · latency budget · embedding refresh · online A/B · your ads metric · search + LLM (RAG as retrieval)  
+**X — CX FM:** domain data curation · SFT mix for CX · offline eval suite · online guardrails · FM vs prompt-only · seller/advertiser vs consumer CX · failure cases · metric `___` · scaling domain data  
+**P — Pretrain:** Chinchilla / compute-optimal · data dedup & mixing · tokenizer choice · scaling laws intuition · architecture choices (dense vs MoE) · stability (loss spikes) · what you'd pretrain differently · OLMo/Llama skim · your PhD → pretrain bridge  
+**T — Post-train:** SFT pipeline · DPO vs PPO vs GRPO · reward hacking · KL penalty · preference data · eval contamination · RLHF at scale · your CX FM post-train choices · NeMo/Mosaic skim
+
+---
+
 ## July 2026 — Prep sprint + open pipeline
 
 **Theme:** Minimum viable ML skills + pitch/behavioral + referrals. No dream-company onsites yet.
@@ -64,7 +131,7 @@ practice loops   target onsites
 | ML ×2 | CS336 Lec 1–2 (1.25×); skim shape conventions | [ml-coding/notes.md](../ml-coding/notes.md) | [ ] |
 | ML Sat | Lec 3 + draw decoder-only architecture from memory | CS336 | [ ] |
 | Process Sun | List 15 target companies/teams; 1 contact each | [process-tracker.md](../job-search/process-tracker.md) | [ ] |
-| Process Sun | Draft flagship project pitch (2-min version) | [research/pitch-template.md](../research/pitch-template.md) | [ ] |
+| Process Sun | Draft pitch variants **R (retrieval)** + **X (CX FM)** — 2 min each | [research/pitch-template.md](../research/pitch-template.md) | [ ] |
 
 ### Jul W2 · Jul 14–20 — First drills
 
@@ -92,7 +159,7 @@ practice loops   target onsites
 |---|---|---|
 | LC ×3 | Merge Intervals (56), Meeting Rooms II (253), Product Except Self (238) | [ ] |
 | ML ×2 | Lec 10 concepts; [05_greedy_decode.py](../ml-coding/drills/05_greedy_decode.py); explain KV cache aloud | [ ] |
-| ML Sat | Rapid-fire §A: 30 questions; mark gaps | [technical-discussion/notes.md](../technical-discussion/notes.md) | [ ] |
+| ML Sat | Rapid-fire §G-R retrieval + §G-X CX FM (10 Qs each) | [technical-discussion/notes.md](../technical-discussion/notes.md) | [ ] |
 | Process Sun | Read [negotiation/playbook.md](../negotiation/playbook.md) once | [ ] |
 | Process Sun | Send **3** referrals; record 5-min pitch and self-review | [ ] |
 
@@ -114,8 +181,8 @@ practice loops   target onsites
 |---|---|---|
 | LC ×3 | Reverse LL (206), LRU Cache (146), Max Depth (104) | [ ] |
 | ML ×2 | **Timed:** full transformer forward 90 min | [ ] |
-| ML Sat | Lec 15–16 (SFT/RLHF) + GRPO skim | [ ] |
-| Process Sun | Apply to 1–2 practice companies; update tracker | [ ] |
+| ML Sat | Lec 15–16 (SFT/RLHF) + GRPO — pillar **T** | [ ] |
+| Process Sun | §D cram: **Glean (R)** + **Databricks (T)** | [technical-discussion/notes.md](../technical-discussion/notes.md) | [ ] |
 | Process Sun | 1 mock research conversation (self-recorded) | [ ] |
 
 ### Aug W2 · Aug 11–17
@@ -124,8 +191,8 @@ practice loops   target onsites
 |---|---|---|
 | LC ×3 | Level Order (102), Validate BST (98), LCA (236) | [ ] |
 | ML ×2 | ML drill rotation (#1–3); review weak rapid-fire Qs | [ ] |
-| ML Sat | Experiment design §B: write + speak 2 prompts | [ ] |
-| Process Sun | Follow up stale referrals (>1 week, no reply) | [ ] |
+| ML Sat | Lec 7–9 scaling + §G-P pretrain (10 Qs); §D **AI2 (P)** + **Sierra (X)** | [ ] |
+| Process Sun | Apply to 1 practice co (**R** or **X** pillar) | [ ] |
 
 ### Aug W3 · Aug 18–24
 
@@ -133,7 +200,7 @@ practice loops   target onsites
 |---|---|---|
 | LC ×3 | Number of Islands (200), Course Schedule (207), Clone Graph (133) | [ ] |
 | ML ×2 | Drill rotation; 1 timed ⭐⭐ LC (45 min) | [ ] |
-| Process | **First phone screen** (or 60-min mock ML coding) | [ ] |
+| Process | **Amazon Ads (R)** §D cram + warm intro if ready | [ ] |
 | Process Sun | Write [interview-journal.md](../job-search/interview-journal.md) after | [ ] |
 
 ### Aug W4 · Aug 25–31
@@ -141,9 +208,9 @@ practice loops   target onsites
 | Block | Task | Done |
 |---|---|---|
 | LC ×3 | Kth Largest (215), Top K (347), Merge K Lists (23) | [ ] |
-| ML ×2 | Fill §D cram sheets for 2 applied companies | [technical-discussion/notes.md](../technical-discussion/notes.md) | [ ] |
-| ML Sat | Mock: ML coding 60 min | [ ] |
-| Process Sun | Apply to **2 target companies** (not practice) | [ ] |
+| ML ×2 | §D **Microsoft (X)** + **Snowflake (X/R)** | [technical-discussion/notes.md](../technical-discussion/notes.md) | [ ] |
+| ML Sat | Mock ML coding + **pitch R or X** aloud | [ ] |
+| Process Sun | Apply: **Microsoft** + **Amazon Ads (R)** priority | [ ] |
 
 **August exit criteria**
 - [ ] ≥15 ⭐⭐ LC attempted; 5 cold-solvable from memory
@@ -256,11 +323,13 @@ Skip full Pass 1–3. Finish the ⭐⭐ list below by **Aug 31**.
 | Jul 27 | attention + MHA | timed drills |
 | Aug 10 | mini LM + loss | [04_mini_lm.py](../ml-coding/drills/04_mini_lm.py) |
 | Aug 24 | full transformer 90 min | blank file timed |
-| Aug 31 | rapid-fire §A 70% | 20 Qs cold |
-| Sep 15 | per-company cram fluent | §D sheets |
+| Aug 31 | §G-R + §G-T 70% (20 Qs) | pillar rapid-fire |
+| Aug 31 | pitch **R + X** fluent | 2 min each recorded |
+| Sep 15 | pitch **P or T** ready | for dream-lab loops |
+| Sep 15 | §D cram for active interview | match pillar |
 | Ongoing | KV cache + decoding explainable | whiteboard |
 
-**CS336 (employed — watch these only):** Lec 1–4, 10, 15–16. A1 drills required; A2–A5 optional.
+**CS336 (employed — watch these only):** Lec 1–4, 7–9 (scaling/**P**), 10, 13–14 (data/**P**), 15–16 (**T**). A1 drills required; A2–A5 optional unless **P** infra interview.
 
 ---
 

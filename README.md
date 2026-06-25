@@ -14,6 +14,7 @@ Learning-Vault/
 │   └── THIS_WEEK.md
 ├── job-search/              # pipeline & companies
 │   ├── process-tracker.md
+│   ├── LINKEDIN_ROLE_SCAN.md   # verified job links (re-scan monthly)
 │   ├── COMPANY_LIST.md
 │   └── interview-journal.md
 ├── ml-coding/               # PyTorch drills
@@ -34,9 +35,10 @@ Learning-Vault/
 **Employed, targeting an offer Oct–Nov 2026:**
 
 1. [`plan/THIS_WEEK.md`](plan/THIS_WEEK.md) → **today's tasks**
-2. [`job-search/process-tracker.md`](job-search/process-tracker.md) → active pipeline
-3. [`job-search/COMPANY_LIST.md`](job-search/COMPANY_LIST.md) → company master list (~95+)
-4. [`plan/ML_JOB_SEARCH_PLAN.md`](plan/ML_JOB_SEARCH_PLAN.md) → full employed track
+2. [`job-search/process-tracker.md`](job-search/process-tracker.md) → active pipeline (33 rows w/ job links)
+3. [`job-search/LINKEDIN_ROLE_SCAN.md`](job-search/LINKEDIN_ROLE_SCAN.md) → verify roles before apply
+4. [`job-search/COMPANY_LIST.md`](job-search/COMPANY_LIST.md) → company master list (~95+)
+5. [`plan/ML_JOB_SEARCH_PLAN.md`](plan/ML_JOB_SEARCH_PLAN.md) → full employed track
 
 ---
 

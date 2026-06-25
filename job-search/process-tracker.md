@@ -3,15 +3,18 @@
 One source of truth for the employed track (Jul → Nov 2026).
 
 **Profile:** Jingya (Tina) Liu · [LinkedIn](https://www.linkedin.com/in/jingya-tina-liu/)  
-**Education:** PhD EE, CUNY City College (2016–2021) · advisor Yingli Tian · CV / medical imaging · ~400 citations · patent  
-**Target roles:** Research Scientist / Applied Scientist · post-training · agentic · domain FM  
+**Education:** PhD EE, CUNY City College (2016–2021) · advisor Yingli Tian · CV / medical imaging · ~431 citations · patent  
+**Target roles:** Research Scientist / Applied Scientist  
+**Target research areas (all four):** **retrieval / ranking / search** · **CX foundation model** · **pretraining** · **post-training**  
 **Location:** Redmond / Bellevue / Seattle metro · remote US  
 
 **Current role:** **Staff Data Scientist**, Walmart Global Tech · **Apr 2024 → present** (Bellevue)  
-**Prior at Walmart:** Senior Software Engineer · **Aug 2022 → Mar 2024** (Redmond)  
+**Prior at Walmart:** Research Engineer · **Aug 2022 → Mar 2024** (Redmond)  
 
-**Career arc (Walmart):** AR shelf object detection → ads retrieval → customer agent bot → CX foundation model  
-**Keywords (LinkedIn):** Agentic AI · GenAI · multimodal · CV · LLM
+**Career arc (Walmart):** AR shelf object detection → ads retrieval → advertiser/seller agent → CX foundation model  
+**Keywords (LinkedIn):** Agentic AI · GenAI · multimodal · CV · LLM  
+
+**Prep plan:** [Four-pillar prep](../plan/ML_JOB_SEARCH_PLAN.md#four-pillar-prep-your-target-areas) · **[LinkedIn role scan](LINKEDIN_ROLE_SCAN.md)** (verify before apply)
 
 **Legend:** 👻 ghosted · ✓ offer · ✗ reject · ↩ withdrawn · 🏋️ practice · 🎯 target · ⭐ dream
 
@@ -60,50 +63,59 @@ Use **Aug** for these. Goal: calibrate interview format, not land your dream job
 
 Apply here first. Verify open roles on careers page before applying.
 
-| Company | Team / focus | Loc | Why practice | Contact | Applied | Notes |
-|---|---|---|---|---|---|---|
-| **Databricks** | Mosaic AI / LLM post-train | Seattle / remote | Regular ML loop; FM + data; strong feedback culture | cold | [ ] | Best first practice if role open |
-| **AI2** | OLMo / applied NLP / agents | Seattle | Research-style RS; PhD-friendly; local | cold | [ ] | Good research deep-dive practice |
-| **Glover Labs** | Enterprise agent orchestration | Seattle | Agentic; smaller loop; CX-adjacent | cold | [ ] | Built In Seattle |
-| **SeekOut** | Talent AI / applied ML | Bellevue | Applied ML; unicorn but smaller than FAANG | cold | [ ] | Local; product ML |
-| **Why Labs** | ML observability / model monitoring | Seattle | Shorter loop; ML fundamentals | cold | [ ] | Lighter if you want warm-up |
-| **Eigen Labs** | Agentic systems / coordination | Seattle / remote | Agent interview; remote-friendly | cold | [ ] | Senior agentic roles |
-| **Cohere** | Post-training / enterprise LLM | Remote | Post-train fit; remote; mid-size | cold | [ ] | Good post-train practice |
-| **Sierra** | CX / customer agents | Remote | CX FM + bot — strong fit | cold | [ ] | |
-| **Glean** | Enterprise RAG / search | Remote | Retrieval + agents | cold | [ ] | |
-| **Scale AI** | RLHF / eval / data | Remote | Post-train pipeline | cold | [ ] | |
-| **Reddit** | Post-train RS | Remote | RS title; post-train | cold | [ ] | |
-| **Optum AI** | Healthcare FM + agents | Remote US | Domain FM practice | cold | [ ] | |
-| **Hugging Face** | Open models | Remote | Post-train / eval | cold | [ ] | |
-| **Envive AI** | Agentic commerce / CX agents | Seattle | AI2 spinout; CX + agents | cold | [ ] | Local practice |
-| **Decagon** | Enterprise CX agents | Remote | Strong CX FM fit | cold | [ ] | Sierra-adjacent |
-| **ServiceNow** | Now Assist / enterprise agents | Remote US | CX FM + enterprise | cold | [ ] | |
+| Company | Role / team (verified Jun 2026) | Loc | Pillars | Why practice | Contact | Applied | Notes |
+|---|---|---|---|---|---|---|---|
+| **Glean** | ML Engineer, **Search Quality** | Remote | **R** **T** | LinkedIn **R** role live | cold | [ ] | [4195257196](LINKEDIN_ROLE_SCAN.md#glean) |
+| **Databricks** | Mosaic AI — AS/RS | Seattle / remote | **T** **P** | Post-train loop | cold | [ ] | Search Mosaic |
+| **AI2** | OLMo / open pretrain | Seattle | **P** **T** | PhD research loop | cold | [ ] | Local |
+| **Sierra** | CX / domain FM (check careers) | Remote | **X** **T** | Top **X** fit | cold | [ ] | Title may ≠ RS |
+| **Scale AI** | RLHF / eval | Remote | **T** | Post-train | cold | [ ] | |
+| **Decagon** | **Research Engineer**, Agents | Remote | **X** **T** | RE title; CX practice | cold | [ ] | [4410782016](LINKEDIN_ROLE_SCAN.md) |
+| **Cohere** | Post-training | Remote | **T** | Post-train | cold | [ ] | |
+| **Hugging Face** | Open models | Remote | **P** **T** | Open pretrain | cold | [ ] | |
+| **SeekOut** | Talent search / ranking | Bellevue | **R** | Local **R** | cold | [ ] | |
+| **Envive AI** | Commerce search + CX | Seattle | **R** **X** | Local | cold | [ ] | |
+| **Reddit** | Post-train RS | Remote | **T** | RS post-train | cold | [ ] | |
+| **ServiceNow** | Now Assist / domain FM | Remote US | **X** **T** | Enterprise FM | cold | [ ] | |
+| **Optum AI** | Healthcare domain FM | Remote US | **X** **T** | Domain FM | cold | [ ] | |
+| **Why Labs** | ML observability | Seattle | — | Warm-up only | cold | [ ] | |
+
+Full title links → [LINKEDIN_ROLE_SCAN.md](LINKEDIN_ROLE_SCAN.md)
 
 ---
 
 ### 🎯 Target — big tech (Sep)
 
-| Company | Team / focus | Loc | Why you | Contact | Referral | Applied | Notes |
-|---|---|---|---|---|---|---|---|
-| **Amazon** | Ads ML — retrieval / ranking | Seattle | Direct retrieval match | ex-colleague | [ ] | [ ] | Warm intro first |
-| **Amazon** | AGI / Alexa agents | Bellevue / Seattle | Agentic + FM | cold | [ ] | [ ] | After 1 practice loop |
-| **Microsoft** | M365 Copilot / Azure AI agents | Redmond | CX FM + enterprise agents | cold | [ ] | [ ] | Local priority |
-| **Google** | Kirkland — Ads or Search ML | Kirkland | Retrieval + applied RS | cold | [ ] | [ ] | |
-| **Google** | Gemini applied / post-train | Kirkland / remote | Post-train | cold | [ ] | [ ] | |
-| **NVIDIA** | NeMo / LLM post-train | Redmond / remote | Post-train stack | cold | [ ] | [ ] | |
-| **Apple** | Seattle ML — on-device / applied | Seattle | Applied RS; local | cold | [ ] | [ ] | |
-| **Snowflake** | Arctic LLM / Intelligence agents | Bellevue | Enterprise agents + post-train | cold | [ ] | [ ] | Local; Staff RS roles |
+Verified roles → [LINKEDIN_ROLE_SCAN.md](LINKEDIN_ROLE_SCAN.md). Re-check links before applying.
+
+| Company | Role / team (verified Jun 2026) | Loc | Pillars | Why you | Contact | Referral | Applied | Job link / ID |
+|---|---|---|---|---|---|---|---|---|
+| **Amazon** | Applied Scientist, **Ad Response Prediction** | Seattle | **R** **T** | Ads retrieval — **#1 warm** | ex-colleague | [ ] | [ ] | [LI 4173762699](https://www.linkedin.com/jobs/view/applied-scientist-amazon-at-amazon-4173762699) |
+| **Amazon** | Applied Scientist, **Search Science** | Seattle | **R** | Search ranking @ scale | cold | [ ] | [ ] | [LI 3935380012](https://www.linkedin.com/jobs/view/senior-principal-applied-scientist-search-science-at-amazon-3935380012) |
+| **Amazon** | Applied Scientist, **GenAI/LLM Sandstone** | Seattle | **X** **T** | Stores behavioral FM | cold | [ ] | [ ] | [LI 4177334694](https://www.linkedin.com/jobs/view/applied-scientist-genai-llm-sandstone-at-amazon-4177334694) |
+| **Microsoft** | **Senior Applied Scientist**, Copilot | Redmond | **X** **T** | Domain FM + post-train | cold | [ ] | [ ] | [LI 4208852092](https://www.linkedin.com/jobs/view/senior-applied-scientist-at-microsoft-innovation-center-4208852092) |
+| **Microsoft** | Applied Scientist II, **Advertising** (retrieval + LLM) | Redmond | **R** **T** | Ads retrieval + LLM | cold | [ ] | [ ] | [LI 4400586810](https://www.linkedin.com/jobs/view/applied-scientist-ii-and-senior-applied-scientist-at-microsoft-4400586810) |
+| **Apple** | **ML Researcher, Foundation Models** | Seattle | **P** **X** **T** | AFM — top Apple RS match | cold | [ ] | [ ] | [Apple 200641998](https://jobs.apple.com/en-us/details/200641998) |
+| **Apple** | ML Engineer, **Search & Knowledge** | Seattle | **R** | Search/retrieval platform | cold | [ ] | [ ] | [Apple 200669635](https://jobs.apple.com/en-us/details/200669635) |
+| **Apple** | **Principal RS**, Siri Innovation Studio | Seattle | **X** **T** | PhD + conversational FM | cold | [ ] | [ ] | [Apple 200667331](https://jobs.apple.com/en-us/details/200667331) |
+| **Google** | **Research Scientist**, Google Cloud AI | Kirkland | **P** **T** | RS title; Kirkland | cold | [ ] | [ ] | [LI 4224661081](https://www.linkedin.com/jobs/view/research-scientist-google-cloud-ai-at-google-4224661081) |
+| **Google** | Gemini applied / Ads ML | Kirkland | **R** **P** **T** | Search/ads — verify team | cold | [ ] | [ ] | Search Kirkland |
+| **Snowflake** | **Staff RS**, AI Agents & LLMs | Bellevue | **X** **T** **R** | Arctic agents; local | cold | [ ] | [ ] | Built In / LI |
+| **Snowflake** | AI RS, **Multi-Modal Retrieval** | Bellevue | **R** **P** | Best Snowflake **R** fit | cold | [ ] | [ ] | [LI 4205827797](https://www.linkedin.com/jobs/view/ai-research-scientist-–-multi-modal-retrieval-systems-and-vision-language-models-at-snowflake-4205827797) |
+| **NVIDIA** | **Sr GenAI Algorithms Engineer**, NeMo | Redmond | **P** **T** | NeMo post-train stack | cold | [ ] | [ ] | [LI 4235759425](https://www.linkedin.com/jobs/view/senior-genai-algorithms-engineer-at-nvidia-4235759425) |
+| **ByteDance** | **Researcher**, LLM Applied ML | Seattle | **P** **T** **R** | Post-train, RAG, alignment | cold | [ ] | [ ] | [LI 4187893967](https://www.linkedin.com/jobs/view/researcher-large-language-models-applied-machine-learning-at-bytedance-4187893967) |
 
 ---
 
 ### ⭐ Dream (Sep–Oct, after practice)
 
-| Company | Team / focus | Loc | Contact | Referral | Applied | Notes |
-|---|---|---|---|---|---|---|
-| **Microsoft Research** | Redmond applied / conversation | Redmond | cold | [ ] | [ ] | PhD + citations |
-| **Meta** | GenAI — Llama post-training | Remote | cold | [ ] | [ ] | Align offer timing |
-| **Anthropic** | Applied / post-train / agents | Remote / SF | cold | [ ] | [ ] | |
-| **OpenAI** | Applied RS / post-train | Remote / SF | cold | [ ] | [ ] | |
+| Company | Role / team (verified) | Loc | Pillars | Contact | Referral | Applied | Job link |
+|---|---|---|---|---|---|---|---|
+| **Meta** | AI RS, **VLLM — Llama** team | **Bellevue** | **P** **T** | cold | [ ] | [ ] | [LI 4120829029](https://www.linkedin.com/jobs/view/ai-research-scientist-vllm-vision-large-language-models-generative-ai-at-meta-4120829029) |
+| **Microsoft Research** | Redmond conversation / FM | Redmond | **X** **P** **T** | cold | [ ] | [ ] | Search MSR |
+| **Anthropic** | Post-train / alignment | Remote / SF | **T** **P** | cold | [ ] | [ ] | anthropic.com |
+| **OpenAI** | Pretrain / post-train applied | Remote / SF | **P** **T** | cold | [ ] | [ ] | openai.com |
+| **Google DeepMind** | Multimodal alignment / safety | Kirkland | **P** **T** | cold | [ ] | [ ] | [LI 4383380784](https://www.linkedin.com/jobs/view/research-scientist-multimodal-alignment-safety-and-fairness-at-google-deepmind-4383380784) |
 
 ---
 
@@ -111,10 +123,10 @@ Apply here first. Verify open roles on careers page before applying.
 
 | Tier | Count | When |
 |---|---|---|
-| 🏋️ Practice (startup/SMB) | 17 | Aug apply — [full list](COMPANY_LIST.md#-practice--startups--smb-apply-first) |
-| 🎯 Target (big tech) | 8 | Sep apply |
-| ⭐ Dream | 4 | Sep–Oct |
-| **Total** | **22** in pipeline · **90–100** in [master list](COMPANY_LIST.md) | Trim active pipeline to 25–40 |
+| 🏋️ Practice (startup/SMB) | 14 | Aug — [LINKEDIN_ROLE_SCAN](LINKEDIN_ROLE_SCAN.md) |
+| 🎯 Target (big tech + ByteDance) | 14 | Sep — verified job links in tracker |
+| ⭐ Dream | 5 | Sep–Oct |
+| **Total** | **33** active rows · **90–100** in [master list](COMPANY_LIST.md) | Trim to 25–40 applied |
 
 ---
 

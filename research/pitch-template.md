@@ -7,24 +7,26 @@ Prepare **2 min**, **5 min**, and **15 min** versions of the same thread. Interv
 ## Career arc (fill once — reuse across pitches)
 
 **Name:** Jingya (Tina) Liu · [LinkedIn](https://www.linkedin.com/in/jingya-tina-liu/)  
-**PhD:** Electrical Engineering, CUNY City College (2016–2021) · Yingli Tian lab · CV / medical imaging · ~400 citations · patent  
+**PhD:** Electrical Engineering, CUNY City College (2016–2021) · Yingli Tian lab · CV / medical imaging · ~431 citations · patent  
 
 **Walmart Global Tech:**
 | Period | Title | Location |
 |---|---|---|
-| Aug 2022 – Mar 2024 | Senior Software Engineer | Redmond |
+| Aug 2022 – Mar 2024 | Research Engineer | Redmond |
 | Apr 2024 – present | **Staff Data Scientist** | Bellevue |
 
 | Phase | Project | One-line hook | Key metric (fill) |
 |---|---|---|---|
 | 1 | AR shelf object detection | Shipped CV for in-store / AR use | mAP / coverage: ___ |
 | 2 | Ads retrieval | Large-scale dual-tower / ranking | recall@k / lift: ___ |
-| 3 | Customer agent bot | Tool-using support agent in production | resolution / handoff: ___ |
+| 3 | Advertiser/seller-facing agent | Tool-using agent in production | resolution / handoff: ___ |
 | 4 | CX foundation model | Domain FM — SFT, eval, data mix | vs general LLM: ___ |
 
-**2-min thread:** PhD CV/medical imaging (1 sentence) → Walmart four phases (15 sec each) → **CX FM deep dive (30 sec)** → targeting RS/Applied Scientist in post-train / agentic.
+**2-min thread:** PhD (1 sentence) → Walmart arc emphasizing **R → X** with **T** methods → deep-dive on pillar matching the role → want RS in **R / X / P / T** (pick 2 for this interview).
 
-**Title bridge (if asked):** Staff DS today; applying for RS/Applied Scientist to own research direction on FM + agents at lab scale.
+**Title bridge (if asked):** Staff DS today; targeting RS to own **retrieval, domain FM, or LM training** at research depth — not pure SWE.
+
+**Pretrain gap (if asked for P roles):** Industrial work is post-train + domain FM; PhD + citations + FM data/scale decisions show pretrain research taste — eager to go deeper on data mix and scaling.
 
 **Why leave Walmart (honest, forward-looking):** ___
 
@@ -71,6 +73,40 @@ For **every** paper on your CV, fill a mini version:
 | | | | | |
 | | | | | |
 | | | | | |
+
+---
+
+## Pitch variants by pillar
+
+Use the same Walmart arc; **lead with the pillar the team cares about**.
+
+### R — Retrieval / ranking / search (Amazon Ads, Google Search/Ads, Glean, SeekOut, Perplexity)
+
+**Lead:** large-scale ads retrieval — dual-tower / ranking, recall@k, online lift `___`  
+**Deep-dive (30 sec):** negative sampling, ANN, latency vs quality, A/B design  
+**Bridge:** retrieval stack grounded later CX FM and search-augmented generation  
+**Close:** RS on retrieval + ranking + search at scale  
+
+### X — CX foundation model (Sierra, Decagon, Microsoft, ServiceNow, Snowflake)
+
+**Lead:** customer experience foundation model — domain SFT, eval, production iteration  
+**Deep-dive (30 sec):** domain data mix, offline/online eval, vs general LLM `___`  
+**Bridge:** seller/advertiser agent informed what the FM must handle  
+**Close:** RS owning domain FM research for customer experience  
+
+### P — Pretraining (AI2, Meta, OpenAI, DeepMind, Hugging Face)
+
+**Lead:** PhD (~431 cit) + shipped domain FM — research taste with production grounding  
+**Deep-dive (30 sec):** data mix / scale decisions you made; what you'd pretrain differently  
+**Honest gap:** less industrial pretrain compute; strong on data quality, eval, architecture intuition  
+**Close:** RS on pretraining — data, scaling, open models  
+
+### T — Post-training (Databricks, Scale, Cohere, NVIDIA NeMo, Meta GenAI, Reddit)
+
+**Lead:** CX FM built via SFT + alignment pipeline — choices and eval `___`  
+**Deep-dive (30 sec):** SFT vs DPO/RLHF, preference data, reward hacking, eval contamination  
+**Bridge:** post-train is how domain FM actually ships  
+**Close:** RS on post-training, alignment, and domain adaptation  
 
 ---
 

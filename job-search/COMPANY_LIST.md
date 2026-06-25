@@ -1,8 +1,7 @@
 # Company Master List — RS / Applied Scientist
 
-> **Profile:** Jingya Liu · Staff DS @ Walmart Global Tech · PhD EE CUNY CCNY (~400 cit) · Redmond/Bellevue · targeting RS/Applied Scientist  
-> **Use with:** [process-tracker.md](process-tracker.md) — copy rows into pipeline as you apply  
-> **Sources:** Tracxn, Built In Seattle, job boards (Jun 2026); verify roles before applying
+> **Profile:** Jingya Liu · Staff DS @ Walmart · PhD EE CUNY CCNY (~431 cit) · pillars: **R** **X** **P** **T**  
+> **Use with:** [process-tracker.md](process-tracker.md) · [LINKEDIN_ROLE_SCAN.md](LINKEDIN_ROLE_SCAN.md) (verified openings)
 
 ---
 
@@ -90,7 +89,8 @@ Seattle / Bellevue / remote · agent · post-train · applied RS
 | **Amazon** | Ads ML, AGI, Alexa, AWS AI Labs | Retrieval + agent |
 | **Microsoft** | M365 Copilot, Azure AI, Bing Ads | CX FM + agents |
 | **Google** | Kirkland Ads/Search, Gemini applied | Retrieval |
-| **Apple** | Seattle ML group | Applied RS |
+| **Apple** | FM Researcher · Search & Knowledge · Siri Studio (Seattle) | **P/X/R** — see [LINKEDIN_ROLE_SCAN](LINKEDIN_ROLE_SCAN.md#-apple--seattle-strong-local-hiring) |
+| **ByteDance** | LLM Applied ML (Seattle) | **P/T/R** — post-train, RAG |
 | **NVIDIA** | NeMo, Seattle / Redmond | Post-train |
 | **Meta** | GenAI (often remote) | Post-train — also ⭐ |
 | **Salesforce** | AI Research, Agentforce | Enterprise agents |
@@ -161,7 +161,7 @@ Seattle / Bellevue / remote · agent · post-train · applied RS
 | **Google DeepMind** | Research | Kirkland + remote |
 | **Microsoft Research** | Redmond | PhD + citations |
 | **Meta FAIR** | Open research | Competitive |
-| **Apple MLR** | On-device research | Selective |
+| **Apple MLR** | FM / Search / Siri Seattle | Selective — [role scan](LINKEDIN_ROLE_SCAN.md#-apple--seattle-strong-local-hiring) |
 | **NVIDIA Research** | Generative AI | |
 | **Amazon AGI** | Frontier | Bellevue |
 | **xAI** | Frontier | |
@@ -230,15 +230,21 @@ Filter: United States · Remote · Seattle metro
 
 ---
 
-## Strong fit for *your* background (prioritize)
+## Strong fit for *your* background (prioritize by pillar)
 
-| Your experience | Companies especially aligned |
+| Pillar | Your proof | Top targets |
+|---|---|---|
+| **R** Retrieval / ranking / search | Walmart ads retrieval | **Amazon Ads**, Google Kirkland Search/Ads, **Glean**, SeekOut, Perplexity, Pinterest, LinkedIn |
+| **X** CX foundation model | CX FM + seller agent | **Sierra**, **Decagon**, Microsoft, ServiceNow, Snowflake, Zendesk, Cresta |
+| **P** Pretraining | PhD + FM scale + AI2 local | **AI2**, Meta Llama, OpenAI, DeepMind, Hugging Face |
+| **T** Post-training | CX FM SFT/alignment pipeline | **Databricks**, Scale, Cohere, NVIDIA NeMo, Reddit, Meta GenAI |
+
+| Cross-pillar (2+ pillars) | Why |
 |---|---|
-| CX foundation model | **Sierra**, **Decagon**, **ServiceNow**, Microsoft Copilot, **Amazon AGI**, Optum AI, **Zendesk**, **Cresta** |
-| Customer agent bot | Sierra, Decagon, Glover, Eigen, Cognition, Rasa, Humanly, **Envive**, **Intercom** |
-| Ads retrieval | Amazon Ads, Google Ads, Meta ads, Pinterest, LinkedIn, Instacart |
-| Domain FM + eval | Scale, Snorkel, Centific, Cohere, Databricks Mosaic |
-| PhD + applied RS | AI2, MSR, Reddit RS, Bloomberg, Salesforce AI |
+| **Google** | **R** Search/Ads + **P/T** Gemini |
+| **Microsoft** | **X** Copilot FM + **T** post-train |
+| **Amazon** | **R** Ads + **X/T** if search/FM team |
+| **Snowflake** | **R** enterprise search + **X/T** Arctic agents |
 
 ---
 
