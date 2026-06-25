@@ -6,7 +6,14 @@ Prepare **2 min**, **5 min**, and **15 min** versions of the same thread. Interv
 
 ## Career arc (fill once — reuse across pitches)
 
-**Employer:** Walmart Global Tech · Aug 29, 2022 → present (~4 years)
+**Name:** Jingya (Tina) Liu · [LinkedIn](https://www.linkedin.com/in/jingya-tina-liu/)  
+**PhD:** Electrical Engineering, CUNY City College (2016–2021) · Yingli Tian lab · CV / medical imaging · ~400 citations · patent  
+
+**Walmart Global Tech:**
+| Period | Title | Location |
+|---|---|---|
+| Aug 2022 – Mar 2024 | Senior Software Engineer | Redmond |
+| Apr 2024 – present | **Staff Data Scientist** | Bellevue |
 
 | Phase | Project | One-line hook | Key metric (fill) |
 |---|---|---|---|
@@ -15,7 +22,9 @@ Prepare **2 min**, **5 min**, and **15 min** versions of the same thread. Interv
 | 3 | Customer agent bot | Tool-using support agent in production | resolution / handoff: ___ |
 | 4 | CX foundation model | Domain FM — SFT, eval, data mix | vs general LLM: ___ |
 
-**2-min thread:** PhD (1 sentence) → four phases above (15 sec each) → **CX FM deep dive (30 sec)** → want RS role in post-train / agentic.
+**2-min thread:** PhD CV/medical imaging (1 sentence) → Walmart four phases (15 sec each) → **CX FM deep dive (30 sec)** → targeting RS/Applied Scientist in post-train / agentic.
+
+**Title bridge (if asked):** Staff DS today; applying for RS/Applied Scientist to own research direction on FM + agents at lab scale.
 
 **Why leave Walmart (honest, forward-looking):** ___
 

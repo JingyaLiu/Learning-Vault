@@ -1,6 +1,6 @@
 # Company Master List — RS / Applied Scientist
 
-> **Profile:** PhD (~400 cit) · Walmart Global Tech (Aug 2022–present) · post-train / agentic / domain FM · Seattle / Bellevue / Redmond / remote US  
+> **Profile:** Jingya Liu · Staff DS @ Walmart Global Tech · PhD EE CUNY CCNY (~400 cit) · Redmond/Bellevue · targeting RS/Applied Scientist  
 > **Use with:** [process-tracker.md](process-tracker.md) — copy rows into pipeline as you apply  
 > **Sources:** Tracxn, Built In Seattle, job boards (Jun 2026); verify roles before applying
 

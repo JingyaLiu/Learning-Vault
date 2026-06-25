@@ -6,7 +6,7 @@
 > **Start here (full-time prep):** [Phase 1](#phase-1--foundations-weeks-1–4)
 
 **Last updated:** July 2026  
-**Profile:** Full-time at **Walmart Global Tech** (since Aug 29, 2022) · ~12–14 hrs/week prep · target offer **Oct–Nov 2026**  
+**Profile:** **Jingya Liu** · Staff Data Scientist @ Walmart Global Tech (Aug 2022–present) · [LinkedIn](https://www.linkedin.com/in/jingya-tina-liu/) · ~12–14 hrs/week prep · target offer **Oct–Nov 2026**  
 **Legend:** 🔴 = highest ROI · 🟡 = common · ⚪ = company-specific · ✅ = milestone
 
 ---

@@ -2,11 +2,16 @@
 
 One source of truth for the employed track (Jul → Nov 2026).
 
-**Profile:** PhD (~400 citations) · RS / Applied Scientist · Seattle / Bellevue / Redmond / remote  
-**Current role:** Walmart Global Tech · Applied Scientist / ML · **Aug 29, 2022 → present** (~4 yr)  
-**Focus:** post-training · agentic · domain FM · retrieval background
+**Profile:** Jingya (Tina) Liu · [LinkedIn](https://www.linkedin.com/in/jingya-tina-liu/)  
+**Education:** PhD EE, CUNY City College (2016–2021) · advisor Yingli Tian · CV / medical imaging · ~400 citations · patent  
+**Target roles:** Research Scientist / Applied Scientist · post-training · agentic · domain FM  
+**Location:** Redmond / Bellevue / Seattle metro · remote US  
 
-**Career arc (Walmart):** AR shelf object detection → ads retrieval → customer agent bot → CX foundation model
+**Current role:** **Staff Data Scientist**, Walmart Global Tech · **Apr 2024 → present** (Bellevue)  
+**Prior at Walmart:** Senior Software Engineer · **Aug 2022 → Mar 2024** (Redmond)  
+
+**Career arc (Walmart):** AR shelf object detection → ads retrieval → customer agent bot → CX foundation model  
+**Keywords (LinkedIn):** Agentic AI · GenAI · multimodal · CV · LLM
 
 **Legend:** 👻 ghosted · ✓ offer · ✗ reject · ↩ withdrawn · 🏋️ practice · 🎯 target · ⭐ dream
 

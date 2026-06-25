@@ -80,8 +80,9 @@
 Draft here — not your CV read aloud:
 
 ```
-[Past: PhD in ___ — ~400 citations; joined industry Aug 2022]
-[Present: ~4 years at Walmart Global Tech — CV → ads retrieval → customer agent → CX foundation model]
+[Past: PhD EE, CUNY City College — Yingli Tian lab, CV/medical imaging, ~400 citations, patent]
+[Industry: Aug 2022 Walmart — Sr SWE → Staff DS (Apr 2024); Redmond/Bellevue]
+[Arc: AR OD → ads retrieval → customer agent → CX foundation model]
 [Flagship: CX FM — method + one metric]
 [Future: RS / Applied Scientist — post-training, agentic systems, domain-scale LMs at THIS company]
 ```

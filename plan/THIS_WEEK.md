@@ -1,6 +1,6 @@
 # This Week · Jul W1 (adjusted)
 
-> **Profile:** Employed at Walmart · ~12–14 hr/week  
+> **Profile:** Jingya Liu · Staff DS @ Walmart · [LinkedIn](https://www.linkedin.com/in/jingya-tina-liu/) · ~12–14 hr/week  
 > **Branch:** `lc` for LC · this branch for ML/process  
 > **Last updated:** Tue — CS336 Lec 1 moved off Tuesday (skipped, too late)
 
