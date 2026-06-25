@@ -67,7 +67,7 @@
 | Mistake / failure | |
 | Most impactful work | |
 | Why this company | (research + company-specific prep) |
-| Why leave academia / PhD | |
+| Why leave current job / Walmart | Career arc script + forward-looking reason |
 | Disagreement with advisor/manager | |
 | Time you had to learn something fast | |
 | Diversity / inclusion / helping others | |
@@ -80,11 +80,13 @@
 Draft here — not your CV read aloud:
 
 ```
-[Past: 1 sentence background]
-[Pivot: what pulled you into your area]
-[Present: flagship project + result]
-[Future: what you want to do at THIS company]
+[Past: PhD in ___ — ~400 citations; joined industry Aug 2022]
+[Present: ~4 years at Walmart Global Tech — CV → ads retrieval → customer agent → CX foundation model]
+[Flagship: CX FM — method + one metric]
+[Future: RS / Applied Scientist — post-training, agentic systems, domain-scale LMs at THIS company]
 ```
+
+**Why leave current role (if asked):** Growth in post-train / agentic research at scale outside retail vertical — not a negative about Walmart. Fill your real reason: ___
 
 ---
 

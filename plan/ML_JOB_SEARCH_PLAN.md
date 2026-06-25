@@ -6,7 +6,7 @@
 > **Start here (full-time prep):** [Phase 1](#phase-1--foundations-weeks-1–4)
 
 **Last updated:** July 2026  
-**Profile:** Full-time employee · ~12–14 hrs/week · target offer **Oct–Nov 2026**  
+**Profile:** Full-time at **Walmart Global Tech** (since Aug 29, 2022) · ~12–14 hrs/week prep · target offer **Oct–Nov 2026**  
 **Legend:** 🔴 = highest ROI · 🟡 = common · ⚪ = company-specific · ✅ = milestone
 
 ---
@@ -61,19 +61,19 @@ practice loops   target onsites
 | Block | Task | File | Done |
 |---|---|---|---|
 | LC ×3 | Two Sum (1), Valid Anagram (242), Group Anagrams (49) | `lc` hash-maps | [ ] |
-| ML ×2 | CS336 Lec 1–2 (1.25×); skim shape conventions | [ml-coding/notes.md](ml-coding/notes.md) | [ ] |
+| ML ×2 | CS336 Lec 1–2 (1.25×); skim shape conventions | [ml-coding/notes.md](../ml-coding/notes.md) | [ ] |
 | ML Sat | Lec 3 + draw decoder-only architecture from memory | CS336 | [ ] |
-| Process Sun | List 15 target companies/teams; 1 contact each | [process-tracker.md](process-tracker.md) | [ ] |
-| Process Sun | Draft flagship project pitch (2-min version) | [research/pitch-template.md](research/pitch-template.md) | [ ] |
+| Process Sun | List 15 target companies/teams; 1 contact each | [process-tracker.md](../job-search/process-tracker.md) | [ ] |
+| Process Sun | Draft flagship project pitch (2-min version) | [research/pitch-template.md](../research/pitch-template.md) | [ ] |
 
 ### Jul W2 · Jul 14–20 — First drills
 
 | Block | Task | Done |
 |---|---|---|
 | LC ×3 | Valid Palindrome (125), Two Sum II (167), 3Sum (15) | [ ] |
-| ML ×2 | [01_attention.py](ml-coding/drills/01_attention.py) → [02_mha.py](ml-coding/drills/02_mha.py) | [ ] |
+| ML ×2 | [01_attention.py](../ml-coding/drills/01_attention.py) → [02_mha.py](../ml-coding/drills/02_mha.py) | [ ] |
 | ML Sat | Lec 4 + Illustrated GPT-2; timed attention 45 min | [ ] |
-| Process Sun | Behavioral stories 1–4 | [behavioral/story-bank.md](behavioral/story-bank.md) | [ ] |
+| Process Sun | Behavioral stories 1–4 | [behavioral/story-bank.md](../behavioral/story-bank.md) | [ ] |
 | Process Sun | Send **2** referral/warm outreach messages | [ ] |
 
 ### Jul W3 · Jul 21–27 — Mini LM
@@ -81,8 +81,8 @@ practice loops   target onsites
 | Block | Task | Done |
 |---|---|---|
 | LC ×3 | Longest Substring (3), Min Window (76), Container Water (11) | [ ] |
-| ML ×2 | [03_transformer_block.py](ml-coding/drills/03_transformer_block.py) → [04_mini_lm.py](ml-coding/drills/04_mini_lm.py) | [ ] |
-| ML Sat | Causal loss + AdamW; log times in [practice-log.md](ml-coding/practice-log.md) | [ ] |
+| ML ×2 | [03_transformer_block.py](../ml-coding/drills/03_transformer_block.py) → [04_mini_lm.py](../ml-coding/drills/04_mini_lm.py) | [ ] |
+| ML Sat | Causal loss + AdamW; log times in [practice-log.md](../ml-coding/practice-log.md) | [ ] |
 | Process Sun | Behavioral stories 5–8 + question map | [ ] |
 | Process Sun | Send **2** referrals; apply to **1 practice company** | [ ] |
 
@@ -91,9 +91,9 @@ practice loops   target onsites
 | Block | Task | Done |
 |---|---|---|
 | LC ×3 | Merge Intervals (56), Meeting Rooms II (253), Product Except Self (238) | [ ] |
-| ML ×2 | Lec 10 concepts; [05_greedy_decode.py](ml-coding/drills/05_greedy_decode.py); explain KV cache aloud | [ ] |
-| ML Sat | Rapid-fire §A: 30 questions; mark gaps | [technical-discussion/notes.md](technical-discussion/notes.md) | [ ] |
-| Process Sun | Read [negotiation/playbook.md](negotiation/playbook.md) once | [ ] |
+| ML ×2 | Lec 10 concepts; [05_greedy_decode.py](../ml-coding/drills/05_greedy_decode.py); explain KV cache aloud | [ ] |
+| ML Sat | Rapid-fire §A: 30 questions; mark gaps | [technical-discussion/notes.md](../technical-discussion/notes.md) | [ ] |
+| Process Sun | Read [negotiation/playbook.md](../negotiation/playbook.md) once | [ ] |
 | Process Sun | Send **3** referrals; record 5-min pitch and self-review | [ ] |
 
 **July exit criteria**
@@ -134,14 +134,14 @@ practice loops   target onsites
 | LC ×3 | Number of Islands (200), Course Schedule (207), Clone Graph (133) | [ ] |
 | ML ×2 | Drill rotation; 1 timed ⭐⭐ LC (45 min) | [ ] |
 | Process | **First phone screen** (or 60-min mock ML coding) | [ ] |
-| Process Sun | Write [interview-journal.md](interview-journal.md) after | [ ] |
+| Process Sun | Write [interview-journal.md](../job-search/interview-journal.md) after | [ ] |
 
 ### Aug W4 · Aug 25–31
 
 | Block | Task | Done |
 |---|---|---|
 | LC ×3 | Kth Largest (215), Top K (347), Merge K Lists (23) | [ ] |
-| ML ×2 | Fill §D cram sheets for 2 applied companies | [technical-discussion/notes.md](technical-discussion/notes.md) | [ ] |
+| ML ×2 | Fill §D cram sheets for 2 applied companies | [technical-discussion/notes.md](../technical-discussion/notes.md) | [ ] |
 | ML Sat | Mock: ML coding 60 min | [ ] |
 | Process Sun | Apply to **2 target companies** (not practice) | [ ] |
 
@@ -164,7 +164,7 @@ practice loops   target onsites
 | Weekday 30 min | Cram sheet review | 1 ⭐⭐ LC re-solve |
 | Weekday 30 min | — | 10 rapid-fire Qs |
 | Saturday 2 hr | Weak-spot drill | 1 ML drill (maintenance) |
-| Sunday 1 hr | [interview-journal](interview-journal.md) + schedule next week | Outreach follow-up |
+| Sunday 1 hr | [interview-journal](../job-search/interview-journal.md) + schedule next week | Outreach follow-up |
 
 ### September milestone weeks
 
@@ -173,7 +173,7 @@ practice loops   target onsites
 | Sep W1 | Finish practice loop or get feedback | Weak spots from journal | [ ] |
 | Sep W2 | ≥1 target company phone screen | Cram for that company | [ ] |
 | Sep W3 | **≥2 parallel processes** | Behavioral mock 30 min | [ ] |
-| Sep W4 | First onsite or virtual onsite | Job-talk outline if needed | [job-talk/outline.md](job-talk/outline.md) |
+| Sep W4 | First onsite or virtual onsite | Job-talk outline if needed | [job-talk/outline.md](../job-talk/outline.md) |
 
 **September exit criteria**
 - [ ] ≥2 companies in pipeline
@@ -187,7 +187,7 @@ practice loops   target onsites
 | Week | Focus | Done |
 |---|---|---|
 | Oct W1–2 | Concentrated onsites; cram day before each | [ ] |
-| Oct W3 | First verbal/written offer → [negotiation/playbook.md](negotiation/playbook.md) | [ ] |
+| Oct W3 | First verbal/written offer → [negotiation/playbook.md](../negotiation/playbook.md) | [ ] |
 | Oct W4 | Align offer deadlines; teammate 1:1s | [ ] |
 
 **October exit criteria**
@@ -254,7 +254,7 @@ Skip full Pass 1–3. Finish the ⭐⭐ list below by **Aug 31**.
 | Date | Must hit | How to verify |
 |---|---|---|
 | Jul 27 | attention + MHA | timed drills |
-| Aug 10 | mini LM + loss | [04_mini_lm.py](ml-coding/drills/04_mini_lm.py) |
+| Aug 10 | mini LM + loss | [04_mini_lm.py](../ml-coding/drills/04_mini_lm.py) |
 | Aug 24 | full transformer 90 min | blank file timed |
 | Aug 31 | rapid-fire §A 70% | 20 Qs cold |
 | Sep 15 | per-company cram fluent | §D sheets |
@@ -322,14 +322,14 @@ Alisa's search had **11 companies, 57 interviews** — and ML coding + technical
 | Track | Branch / folder | Plan file |
 |---|---|---|
 | General coding | `lc` | `INTERVIEW_PLAN.md` |
-| ML & research | `main` | **This file** |
-| ML implement-from-scratch | `main/ml-coding/` | [notes.md](ml-coding/notes.md) |
-| Rapid-fire & system design | `main/technical-discussion/` | [notes.md](technical-discussion/notes.md) |
-| Research pitch & CV deep-dives | `main/research/` | [pitch-template.md](research/pitch-template.md) |
-| Behavioral (STAR) | `main/behavioral/` | [story-bank.md](behavioral/story-bank.md) |
-| Math | `main/math/` | [notes.md](math/notes.md) |
-| Job talk | `main/job-talk/` | [outline.md](job-talk/outline.md) |
-| Negotiation | `main/negotiation/` | [playbook.md](negotiation/playbook.md) |
+| ML & research | this branch | **This file** |
+| ML implement-from-scratch | `ml-coding/` | [notes.md](../ml-coding/notes.md) |
+| Rapid-fire & system design | `technical-discussion/` | [notes.md](../technical-discussion/notes.md) |
+| Research pitch & CV deep-dives | `research/` | [pitch-template.md](../research/pitch-template.md) |
+| Behavioral (STAR) | `behavioral/` | [story-bank.md](../behavioral/story-bank.md) |
+| Math | `math/` | [notes.md](../math/notes.md) |
+| Job talk | `job-talk/` | [outline.md](../job-talk/outline.md) |
+| Negotiation | `negotiation/` | [playbook.md](../negotiation/playbook.md) |
 
 ---
 
@@ -378,7 +378,7 @@ Phases overlap with `lc` Pass 1–3. By Phase 3 you should be cold-solving ⭐�
 | W1D1 | Lec 1–2: overview, tokenization, PyTorch/einops, FLOPs/memory | [Lec 1](https://cs336.stanford.edu/) · [Lec 2](https://cs336.stanford.edu/) | [ ] |
 | W1D2 | Lec 3: architectures, hyperparameters; trace shapes (B,T,D) | Lec 3 | [ ] |
 | W1D3 | Lec 4: attention alternatives, MoE; + [Illustrated GPT-2](https://jalammar.github.io/gpt2/) | Lec 4 | [ ] |
-| W1D4 | Skim [ml-coding/notes.md](ml-coding/notes.md); BPE encode/decode on paper | A1 tokenizer | [ ] |
+| W1D4 | Skim [ml-coding/notes.md](../ml-coding/notes.md); BPE encode/decode on paper | A1 tokenizer | [ ] |
 | W1D5 | Pre-norm block: attention + FFN + residuals + LayerNorm | A1 model | [ ] |
 | W1D6 | Full decoder-only stack diagram from memory | A1 preview | [ ] |
 | W1D7 | Rest: re-draw architecture; journal gaps | — | [ ] |
@@ -389,10 +389,10 @@ Maps to CS336 A1: *tokenizer + transformer + optimizer + minimal LM training*.
 
 | Day | Block B | Vault drill | Done |
 |---|---|---|---|
-| W2D1 | Scaled dot-product attention | [01_attention.py](ml-coding/drills/01_attention.py) | [ ] |
-| W2D2 | Multi-head attention | [02_mha.py](ml-coding/drills/02_mha.py) | [ ] |
-| W2D3 | Transformer block (attn + FFN + norms) | [03_transformer_block.py](ml-coding/drills/03_transformer_block.py) | [ ] |
-| W2D4 | Mini LM forward pass | [04_mini_lm.py](ml-coding/drills/04_mini_lm.py) | [ ] |
+| W2D1 | Scaled dot-product attention | [01_attention.py](../ml-coding/drills/01_attention.py) | [ ] |
+| W2D2 | Multi-head attention | [02_mha.py](../ml-coding/drills/02_mha.py) | [ ] |
+| W2D3 | Transformer block (attn + FFN + norms) | [03_transformer_block.py](../ml-coding/drills/03_transformer_block.py) | [ ] |
+| W2D4 | Mini LM forward pass | [04_mini_lm.py](../ml-coding/drills/04_mini_lm.py) | [ ] |
 | W2D5 | Causal LM loss (label shift) + AdamW step | A1 training loop | [ ] |
 | W2D6 | **Optional:** start [A1 code](https://cs336.stanford.edu/spring2025/) on CPU | A1 | [ ] |
 | W2D7 | Timed re-implement: attention from blank file (45 min) | 01_attention | [ ] |
@@ -403,11 +403,11 @@ Maps to CS336 A1: *tokenizer + transformer + optimizer + minimal LM training*.
 |---|---|---|---|
 | W3D1 | Lec 5–6: GPUs, arithmetic intensity, kernels/Triton (concepts) | Lec 5–6 | [ ] |
 | W3D2 | Lec 10: inference — KV cache implement + explain | Lec 10 | [ ] |
-| W3D3 | Greedy / top-k / top-p decoding | [05_greedy_decode.py](ml-coding/drills/05_greedy_decode.py) | [ ] |
+| W3D3 | Greedy / top-k / top-p decoding | [05_greedy_decode.py](../ml-coding/drills/05_greedy_decode.py) | [ ] |
 | W3D4 | Beam search (optional) | — | [ ] |
 | W3D5 | Lec 12: evaluation — perplexity, benchmarks, pitfalls | Lec 12 | [ ] |
 | W3D6 | Backprop through attention by hand (one layer) | — | [ ] |
-| W3D7 | Rapid-fire: 20 Qs from [technical-discussion/](technical-discussion/notes.md) §A | — | [ ] |
+| W3D7 | Rapid-fire: 20 Qs from [technical-discussion/](../technical-discussion/notes.md) §A | — | [ ] |
 
 ### Week 4 — Lec 7–9, 13–16: parallelism, scaling, data, alignment
 
@@ -457,20 +457,20 @@ Cycle through these until fluent:
 | 14 | Softmax stability trick | Always |
 | 15 | Sampling from logits (temp, top-p) | Inference |
 
-Track times in [ml-coding/practice-log.md](ml-coding/practice-log.md).
+Track times in [ml-coding/practice-log.md](../ml-coding/practice-log.md).
 
 ### Weekly technical deep-dives (Block B, days you aren't doing a long drill)
 
 | Week | Theme | Prep |
 |---|---|---|
-| 5 | Experiment design | [technical-discussion/](technical-discussion/notes.md) §B — 3 prompts |
+| 5 | Experiment design | [technical-discussion/](../technical-discussion/notes.md) §B — 3 prompts |
 | 6 | Scaling & systems | §C + "How to Scale Your Model" |
 | 7 | RLHF / alignment | PPO vs GRPO, reward modeling |
 | 8 | Your specialty area | 5 papers + 10 rapid-fire Qs you write yourself |
 
 ### Math (2× per week, 30 min each — fold into Block B or C)
 
-Use [math/notes.md](math/notes.md). Focus: probability, linear algebra, calculus.
+Use [math/notes.md](../math/notes.md). Focus: probability, linear algebra, calculus.
 
 ---
 
@@ -480,7 +480,7 @@ Use [math/notes.md](math/notes.md). Focus: probability, linear algebra, calculus
 
 ### Research pitch (start Week 9)
 
-1. Fill [research/pitch-template.md](research/pitch-template.md) for **one flagship project**.
+1. Fill [research/pitch-template.md](../research/pitch-template.md) for **one flagship project**.
 2. Prepare 2-min, 5-min, and 15-min versions.
 3. For every CV paper: *motivation → method one-liner → key result → what you'd do next*.
 4. Tailor keywords to role (pretraining / post-training / eval / infra).
@@ -489,13 +489,13 @@ Use [math/notes.md](math/notes.md). Focus: probability, linear algebra, calculus
 
 ### Behavioral (start Week 9, 30 min × 2/week)
 
-1. Complete [behavioral/story-bank.md](behavioral/story-bank.md) — **minimum 8 STAR stories**.
+1. Complete [behavioral/story-bank.md](../behavioral/story-bank.md) — **minimum 8 STAR stories**.
 2. Map stories → Amazon LP-style questions + generic "tell me about a time…"
 3. **Do not wing behavioral.** Alisa's first one failed for exactly this reason.
 
 ### Job talk (Weeks 10–12)
 
-1. Draft using [job-talk/outline.md](job-talk/outline.md).
+1. Draft using [job-talk/outline.md](../job-talk/outline.md).
 2. Shorter than academic job talk; one coherent thread.
 3. Practice: 25 min talk + 20 min Q&A, twice per week in Week 12.
 
@@ -511,13 +511,13 @@ Use [math/notes.md](math/notes.md). Focus: probability, linear algebra, calculus
 | M6 | Weakest mock repeat | 60 min |
 | M7 | Light review only | — |
 
-**After each mock:** notes in [interview-journal.md](interview-journal.md).
+**After each mock:** notes in [interview-journal.md](../job-search/interview-journal.md).
 
 ---
 
 ## Phase 4 — Negotiation & Process (When You Have Offers)
 
-Don't start here early — but read [negotiation/playbook.md](negotiation/playbook.md) once before first recruiter call so you know the game exists.
+Don't start here early — but read [negotiation/playbook.md](../negotiation/playbook.md) once before first recruiter call so you know the game exists.
 
 **Key moves:**
 - Never accept first verbal number without written offer + time to decide
@@ -544,7 +544,7 @@ Alisa's framing: *each interview is a different class midterm.*
 
 ## Process & Timeline (Non-study)
 
-Parallel to studying — track in a spreadsheet or [process-tracker.md](process-tracker.md):
+Parallel to studying — track in a spreadsheet or [process-tracker.md](../job-search/process-tracker.md):
 
 - [ ] List 15–20 target companies / teams
 - [ ] Map 1st-degree + 2nd-degree contacts per company

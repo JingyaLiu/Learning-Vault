@@ -3,11 +3,14 @@
 One source of truth for the employed track (Jul → Nov 2026).
 
 **Profile:** PhD (~400 citations) · RS / Applied Scientist · Seattle / Bellevue / Redmond / remote  
+**Current role:** Walmart Global Tech · Applied Scientist / ML · **Aug 29, 2022 → present** (~4 yr)  
 **Focus:** post-training · agentic · domain FM · retrieval background
+
+**Career arc (Walmart):** AR shelf object detection → ads retrieval → customer agent bot → CX foundation model
 
 **Legend:** 👻 ghosted · ✓ offer · ✗ reject · ↩ withdrawn · 🏋️ practice · 🎯 target · ⭐ dream
 
-> **Expanded lists:** [COMPANY_LIST.md](COMPANY_LIST.md) (~80+ companies).  
+> **Expanded lists:** [COMPANY_LIST.md](COMPANY_LIST.md) (~95+ companies).  
 > **Volume:** 30–50 targeted apps over 4 months — not hundreds of cold applies.
 
 ---
@@ -67,6 +70,9 @@ Apply here first. Verify open roles on careers page before applying.
 | **Reddit** | Post-train RS | Remote | RS title; post-train | cold | [ ] | |
 | **Optum AI** | Healthcare FM + agents | Remote US | Domain FM practice | cold | [ ] | |
 | **Hugging Face** | Open models | Remote | Post-train / eval | cold | [ ] | |
+| **Envive AI** | Agentic commerce / CX agents | Seattle | AI2 spinout; CX + agents | cold | [ ] | Local practice |
+| **Decagon** | Enterprise CX agents | Remote | Strong CX FM fit | cold | [ ] | Sierra-adjacent |
+| **ServiceNow** | Now Assist / enterprise agents | Remote US | CX FM + enterprise | cold | [ ] | |
 
 ---
 
@@ -81,6 +87,7 @@ Apply here first. Verify open roles on careers page before applying.
 | **Google** | Gemini applied / post-train | Kirkland / remote | Post-train | cold | [ ] | [ ] | |
 | **NVIDIA** | NeMo / LLM post-train | Redmond / remote | Post-train stack | cold | [ ] | [ ] | |
 | **Apple** | Seattle ML — on-device / applied | Seattle | Applied RS; local | cold | [ ] | [ ] | |
+| **Snowflake** | Arctic LLM / Intelligence agents | Bellevue | Enterprise agents + post-train | cold | [ ] | [ ] | Local; Staff RS roles |
 
 ---
 
@@ -99,10 +106,10 @@ Apply here first. Verify open roles on careers page before applying.
 
 | Tier | Count | When |
 |---|---|---|
-| 🏋️ Practice (startup/SMB) | 14 | Aug apply — [full list](COMPANY_LIST.md#-practice--startups--smb-apply-first) |
-| 🎯 Target (big tech) | 7 | Sep apply |
+| 🏋️ Practice (startup/SMB) | 17 | Aug apply — [full list](COMPANY_LIST.md#-practice--startups--smb-apply-first) |
+| 🎯 Target (big tech) | 8 | Sep apply |
 | ⭐ Dream | 4 | Sep–Oct |
-| **Total** | **19** in pipeline · **60–80** in [master list](COMPANY_LIST.md) | Trim active pipeline to 25–40 |
+| **Total** | **22** in pipeline · **90–100** in [master list](COMPANY_LIST.md) | Trim active pipeline to 25–40 |
 
 ---
 
@@ -114,7 +121,9 @@ Apply here first. Verify open roles on careers page before applying.
 
 **Target:** ≥2 outreach messages/week in Jul–Aug; ≥1 follow-up/week in Sep+.
 
-**Priority warm paths:** Amazon ads ex-colleague · PhD advisors/peers at Microsoft/Meta · conference contacts.
+**Priority warm paths:** Amazon ads ex-colleague (pre-Walmart network) · PhD advisors/peers at Microsoft/Meta · conference contacts.
+
+**Discretion:** Search is confidential while employed at Walmart — use personal email for outreach; avoid posting on LinkedIn until later stage.
 
 ---
 

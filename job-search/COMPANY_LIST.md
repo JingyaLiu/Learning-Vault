@@ -1,6 +1,6 @@
 # Company Master List — RS / Applied Scientist
 
-> **Profile:** PhD (~400 cit) · post-train / agentic / domain FM · Seattle / Bellevue / Redmond / remote US  
+> **Profile:** PhD (~400 cit) · Walmart Global Tech (Aug 2022–present) · post-train / agentic / domain FM · Seattle / Bellevue / Redmond / remote US  
 > **Use with:** [process-tracker.md](process-tracker.md) — copy rows into pipeline as you apply  
 > **Sources:** Tracxn, Built In Seattle, job boards (Jun 2026); verify roles before applying
 
@@ -20,7 +20,7 @@
 ### Recommended funnel (employed, 4 months)
 
 ```
-Master list:     60–80 companies   (this file)
+Master list:     90–100 companies  (this file)
 Active pipeline: 25–40            (in process-tracker)
 Applications:    30–50 total       (not 300)
 Referrals:       15–25 asks        (more important than cold apps)
@@ -75,6 +75,11 @@ Seattle / Bellevue / remote · agent · post-train · applied RS
 | Supio | Legal AI | Seattle | Vertical agent |
 | Phaidra | Industrial AI | Seattle | Different domain |
 | Twelve Labs | Video understanding | Seattle / remote | Multimodal |
+| **Envive AI** | Agentic commerce / CX agents | Seattle | AI2 spinout; self-improving agents |
+| **Outbound AI** | Healthcare conversational agents | Seattle | Domain agents; voice + LLM |
+| **Seasalt.AI** | Contact center speech / NLP | Seattle | CX voice; AI2 alumni |
+| **Unwrap** | Customer feedback NLP | Seattle / remote | AI2 ecosystem |
+| **Griptape** | Enterprise agent framework | Remote | Agentic infra / workflows |
 
 ---
 
@@ -91,6 +96,7 @@ Seattle / Bellevue / remote · agent · post-train · applied RS
 | **Salesforce** | AI Research, Agentforce | Enterprise agents |
 | **Adobe** | Sensei / Firefly applied | Applied RS |
 | **Oracle** | OCI GenAI | Less RS, some applied |
+| **Snowflake** | Arctic LLM / Snowflake Intelligence agents | Bellevue | Enterprise agents + post-train |
 
 ---
 
@@ -133,6 +139,16 @@ Seattle / Bellevue / remote · agent · post-train · applied RS
 | **Robinhood** | ML | Applied |
 | **Figma** | AI features | Applied |
 | **Canva** | AI research | Remote-friendly |
+| **ServiceNow** | Now Assist / enterprise agents | Remote US | **Strong CX FM fit** |
+| **Zendesk** | Support / CX AI agents | Remote US | Direct CX agent fit |
+| **Decagon** | Enterprise CX agents | Remote / SF | CX agents — Sierra-adjacent |
+| **Cresta** | Real-time CX AI | Remote | Contact center + agents |
+| **Forethought** | Support automation agents | Remote | CX automation |
+| **Moveworks** | Enterprise copilot / IT agents | Remote | Agentic enterprise |
+| **Intercom** | Fin AI customer agent | Remote / SF | Customer support agents |
+| **Ada** | Customer service automation | Remote | CX bots at scale |
+| **Observe.AI** | Contact center AI | Remote | CX analytics + agents |
+| **Perplexity** | AI search / answer engine | Remote / SF | Retrieval + agents |
 
 ---
 
@@ -155,6 +171,7 @@ Seattle / Bellevue / remote · agent · post-train · applied RS
 | **Poolside** | Code FM | Post-train |
 | **Reka** | Multimodal | |
 | **Cartesia** | Voice / real-time | |
+| **Character.AI** | Conversational FM | Remote | Dialogue / persona |
 
 ---
 
@@ -188,6 +205,10 @@ Apply if top tiers stall. Verify company still active + hiring.
 | WorkWhile | |
 | Runpod | GPU cloud |
 | Nucamp ecosystem cos | See Built In WA list |
+| **CopilotKit** | Agent UI / AG-UI protocol | Remote |
+| **Augment** | AI workplace assistant | Seattle | AI2 ecosystem |
+| **Spangle AI** | Agentic commerce | Seattle area | Retail product discovery |
+| **Ethosphere** | In-store retail conversation AI | Seattle | Vertical CX |
 
 **Discovery links:**
 - [Tracxn — 182 Seattle AI startups](https://tracxn.com/d/explore/artificial-intelligence-startups-in-seattle-united-states/__PbuLbXhwRQZgFaP878DrLwiOjeK5beom5LegXEbRQ0U/companies)
@@ -213,8 +234,8 @@ Filter: United States · Remote · Seattle metro
 
 | Your experience | Companies especially aligned |
 |---|---|
-| CX foundation model | **Sierra**, Microsoft Copilot, **Amazon AGI**, Optum AI, ServiceNow, Zendesk AI |
-| Customer agent bot | Sierra, Glover, Eigen, Cognition, Rasa, Humanly |
+| CX foundation model | **Sierra**, **Decagon**, **ServiceNow**, Microsoft Copilot, **Amazon AGI**, Optum AI, **Zendesk**, **Cresta** |
+| Customer agent bot | Sierra, Decagon, Glover, Eigen, Cognition, Rasa, Humanly, **Envive**, **Intercom** |
 | Ads retrieval | Amazon Ads, Google Ads, Meta ads, Pinterest, LinkedIn, Instacart |
 | Domain FM + eval | Scale, Snorkel, Centific, Cohere, Databricks Mosaic |
 | PhD + applied RS | AI2, MSR, Reddit RS, Bloomberg, Salesforce AI |
@@ -231,4 +252,4 @@ Filter: United States · Remote · Seattle metro
 
 ---
 
-*Master list ~80+. Active pipeline 25–40. Total apps 30–50 over 4 months beats 200 cold applies.*
+*Master list ~95+. Active pipeline 25–40. Total apps 30–50 over 4 months beats 200 cold applies.*

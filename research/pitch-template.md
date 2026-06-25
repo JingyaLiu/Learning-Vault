@@ -4,6 +4,23 @@ Prepare **2 min**, **5 min**, and **15 min** versions of the same thread. Interv
 
 ---
 
+## Career arc (fill once — reuse across pitches)
+
+**Employer:** Walmart Global Tech · Aug 29, 2022 → present (~4 years)
+
+| Phase | Project | One-line hook | Key metric (fill) |
+|---|---|---|---|
+| 1 | AR shelf object detection | Shipped CV for in-store / AR use | mAP / coverage: ___ |
+| 2 | Ads retrieval | Large-scale dual-tower / ranking | recall@k / lift: ___ |
+| 3 | Customer agent bot | Tool-using support agent in production | resolution / handoff: ___ |
+| 4 | CX foundation model | Domain FM — SFT, eval, data mix | vs general LLM: ___ |
+
+**2-min thread:** PhD (1 sentence) → four phases above (15 sec each) → **CX FM deep dive (30 sec)** → want RS role in post-train / agentic.
+
+**Why leave Walmart (honest, forward-looking):** ___
+
+---
+
 ## Project: _________________________
 
 ### One-liner (≤ 20 words)
