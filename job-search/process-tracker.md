@@ -14,7 +14,7 @@ One source of truth for the employed track (Jul → Nov 2026).
 **Career arc (Walmart):** AR shelf object detection → ads retrieval → advertiser/seller agent → CX foundation model  
 **Keywords (LinkedIn):** Agentic AI · GenAI · multimodal · CV · LLM  
 
-**Prep plan:** [Four-pillar prep](../plan/ML_JOB_SEARCH_PLAN.md#four-pillar-prep-your-target-areas) · **[LinkedIn role scan](LINKEDIN_ROLE_SCAN.md)** (verify before apply)
+**Prep plan:** [Prep by target tier](../plan/ML_JOB_SEARCH_PLAN.md#prep-by-target-tier) · **[LinkedIn role scan](LINKEDIN_ROLE_SCAN.md)** (verify before apply)
 
 **Legend:** 👻 ghosted · ✓ offer · ✗ reject · ↩ withdrawn · 🏋️ practice · 🎯 target · ⭐ dream
 
@@ -84,7 +84,9 @@ Full title links → [LINKEDIN_ROLE_SCAN.md](LINKEDIN_ROLE_SCAN.md)
 
 ---
 
-### 🎯 Target — big tech (Sep)
+### 🎯 Target — Primary (Sep) · Oct–Nov offer path
+
+**Prep:** 85% of Jul–Aug study · pillars **R** **X** **T** · [plan](../plan/ML_JOB_SEARCH_PLAN.md#prep-by-target-tier)
 
 Verified roles → [LINKEDIN_ROLE_SCAN.md](LINKEDIN_ROLE_SCAN.md). Re-check links before applying.
 
@@ -95,13 +97,20 @@ Verified roles → [LINKEDIN_ROLE_SCAN.md](LINKEDIN_ROLE_SCAN.md). Re-check link
 | **Amazon** | Applied Scientist, **GenAI/LLM Sandstone** | Seattle | **X** **T** | Stores behavioral FM | cold | [ ] | [ ] | [LI 4177334694](https://www.linkedin.com/jobs/view/applied-scientist-genai-llm-sandstone-at-amazon-4177334694) |
 | **Microsoft** | **Senior Applied Scientist**, Copilot | Redmond | **X** **T** | Domain FM + post-train | cold | [ ] | [ ] | [LI 4208852092](https://www.linkedin.com/jobs/view/senior-applied-scientist-at-microsoft-innovation-center-4208852092) |
 | **Microsoft** | Applied Scientist II, **Advertising** (retrieval + LLM) | Redmond | **R** **T** | Ads retrieval + LLM | cold | [ ] | [ ] | [LI 4400586810](https://www.linkedin.com/jobs/view/applied-scientist-ii-and-senior-applied-scientist-at-microsoft-4400586810) |
-| **Apple** | **ML Researcher, Foundation Models** | Seattle | **P** **X** **T** | AFM — top Apple RS match | cold | [ ] | [ ] | [Apple 200641998](https://jobs.apple.com/en-us/details/200641998) |
 | **Apple** | ML Engineer, **Search & Knowledge** | Seattle | **R** | Search/retrieval platform | cold | [ ] | [ ] | [Apple 200669635](https://jobs.apple.com/en-us/details/200669635) |
 | **Apple** | **Principal RS**, Siri Innovation Studio | Seattle | **X** **T** | PhD + conversational FM | cold | [ ] | [ ] | [Apple 200667331](https://jobs.apple.com/en-us/details/200667331) |
-| **Google** | **Research Scientist**, Google Cloud AI | Kirkland | **P** **T** | RS title; Kirkland | cold | [ ] | [ ] | [LI 4224661081](https://www.linkedin.com/jobs/view/research-scientist-google-cloud-ai-at-google-4224661081) |
-| **Google** | Gemini applied / Ads ML | Kirkland | **R** **P** **T** | Search/ads — verify team | cold | [ ] | [ ] | Search Kirkland |
 | **Snowflake** | **Staff RS**, AI Agents & LLMs | Bellevue | **X** **T** **R** | Arctic agents; local | cold | [ ] | [ ] | Built In / LI |
 | **Snowflake** | AI RS, **Multi-Modal Retrieval** | Bellevue | **R** **P** | Best Snowflake **R** fit | cold | [ ] | [ ] | [LI 4205827797](https://www.linkedin.com/jobs/view/ai-research-scientist-–-multi-modal-retrieval-systems-and-vision-language-models-at-snowflake-4205827797) |
+
+---
+
+### 🎯 Target — Stretch local (Sep) · P-heavy · prep from Aug W3
+
+| Company | Role / team (verified Jun 2026) | Loc | Pillars | Why you | Contact | Referral | Applied | Job link / ID |
+|---|---|---|---|---|---|---|---|---|
+| **Apple** | **ML Researcher, Foundation Models** | Seattle | **P** **X** **T** | AFM — needs pitch **P** | cold | [ ] | [ ] | [Apple 200641998](https://jobs.apple.com/en-us/details/200641998) |
+| **Google** | **Research Scientist**, Google Cloud AI | Kirkland | **P** **T** | RS title; Kirkland | cold | [ ] | [ ] | [LI 4224661081](https://www.linkedin.com/jobs/view/research-scientist-google-cloud-ai-at-google-4224661081) |
+| **Google** | Gemini applied / Ads ML | Kirkland | **R** **P** **T** | Search/ads — verify team | cold | [ ] | [ ] | Search Kirkland |
 | **NVIDIA** | **Sr GenAI Algorithms Engineer**, NeMo | Redmond | **P** **T** | NeMo post-train stack | cold | [ ] | [ ] | [LI 4235759425](https://www.linkedin.com/jobs/view/senior-genai-algorithms-engineer-at-nvidia-4235759425) |
 | **ByteDance** | **Researcher**, LLM Applied ML | Seattle | **P** **T** **R** | Post-train, RAG, alignment | cold | [ ] | [ ] | [LI 4187893967](https://www.linkedin.com/jobs/view/researcher-large-language-models-applied-machine-learning-at-bytedance-4187893967) |
 
@@ -121,12 +130,13 @@ Verified roles → [LINKEDIN_ROLE_SCAN.md](LINKEDIN_ROLE_SCAN.md). Re-check link
 
 ### Summary counts
 
-| Tier | Count | When |
-|---|---|---|
-| 🏋️ Practice (startup/SMB) | 14 | Aug — [LINKEDIN_ROLE_SCAN](LINKEDIN_ROLE_SCAN.md) |
-| 🎯 Target (big tech + ByteDance) | 14 | Sep — verified job links in tracker |
-| ⭐ Dream | 5 | Sep–Oct |
-| **Total** | **33** active rows · **90–100** in [master list](COMPANY_LIST.md) | Trim to 25–40 applied |
+| Tier | Count | When | Prep intensity |
+|---|---|---|---|
+| 🏋️ Practice (startup/SMB) | 14 | Aug | Match company pillar · 1 week cram |
+| 🎯 **Primary** (R/X/T) | 9 | Sep | **85% of Jul–Aug study** |
+| 🎯 **Stretch** (P-heavy) | 5 | Sep | 15% from Aug W3 |
+| ⭐ Dream | 5 | Oct+ | 30 min/wk until Oct |
+| **Total** | **33** active rows · **90–100** in [master list](COMPANY_LIST.md) | Trim to 25–40 applied | See [plan](../plan/ML_JOB_SEARCH_PLAN.md#prep-by-target-tier) |
 
 ---
 
