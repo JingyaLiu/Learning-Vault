@@ -18,7 +18,7 @@ Prepare **2 min**, **5 min**, and **15 min** versions of the same thread. Interv
 | Phase | Project | One-line hook | Key metric (fill) |
 |---|---|---|---|
 | 1 | AR shelf object detection | Shipped CV for in-store / AR use | mAP / coverage: ___ |
-| 2 | Ads retrieval | Large-scale dual-tower / ranking | recall@k / lift: ___ |
+| 2 | Ads retrieval | Large-scale dual-tower / ranking | recall@100: **[+X%]** · CTR: **[+Y%]** · p99: **[Z ms]** |
 | 3 | Advertiser/seller-facing agent | Tool-using agent in production | resolution / handoff: ___ |
 | 4 | CX foundation model | Domain FM — SFT, eval, data mix | vs general LLM: ___ |
 

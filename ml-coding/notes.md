@@ -1,5 +1,7 @@
 # ML Coding — Notes & Drill Index
 
+> **CS336 lecture notes (write here):** [cs336-notes.md](cs336-notes.md)  
+> **CS336 lecture scripts (read):** [cs336-materials/](cs336-materials/)  
 > **Interview rule:** PyTorch allowed unless they say numpy-only. **No AI, no Copilot.**
 
 ---
@@ -89,7 +91,7 @@ Date | Drill | Time | Pass? | Stuck on
 
 ## CS336 Assignment Mapping
 
-Course: [cs336.stanford.edu](https://cs336.stanford.edu/) · Self-study code: [2025 archive](https://cs336.stanford.edu/spring2025/)
+**Sites:** [Spring 2026](https://cs336.stanford.edu/) (latest lectures) · [Spring 2025 archive](https://cs336.stanford.edu/spring2025/) (A1–A5 code + leaderboards)
 
 | Assignment | What you build | Interview relevance |
 |---|---|---|
