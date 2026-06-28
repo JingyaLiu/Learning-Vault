@@ -36,9 +36,11 @@
 
 ### 3 takeaways
 
-1.
-2.
-3.
+1. Mechanics, straightforward (pytorch semantics)
+2. mindset, resource accounting
+3. Intuitions, how resources are spent.
+
+tensor: fp32, fp16, bf16, mixed precision (AMP), fp8, fp4, 
 
 ### Shapes
 
@@ -47,7 +49,7 @@
 
 ### einops (one example each)
 
-- **rearrange:** (split/merge dims, e.g. heads)
+- **rearrange:** (split/merge dims, e.g. heads) 
 - **reduce:** (sum/mean over dim)
 - **einsum:** (matmul pattern)
 
@@ -55,6 +57,15 @@ My example:
 
 ```python
 # fill after watching tensor_einops / einops_rearrange sections
+x = torch.ones(3, 8)  # seq total_hidden 
+...where total_hidden is a flattened representation of heads * hidden1
+w = torch.ones(4, 4)  # hidden1 hidden2 
+
+x = rearrange(x, "...(heads hidden1) ->  ... heads hidden1", heads=2)
+x = einsum(x, w, "...(hidden1 hidden1 hidden2) -> ... hidden2")
+
+x = rearrange(x, "... heads hidden2 -> ... (heads hidden2)")
+
 ```
 
 ### FLOPs / memory
@@ -62,9 +73,19 @@ My example:
 - Attention cost vs T: **O(T²)** compute and memory
 - Matmul FLOPs: roughly **2×** multiply-adds for `(M,K) @ (K,N)`
 - **Arithmetic intensity:** FLOPs / bytes moved — if low, **memory bandwidth** bound (GPU HBM)
+MFU: model flops utilization, mfu = actual_flop_per_sec/ promised_flop_per_sec, MFU of ≥ 0.5 is quite good!
+
+communication_time = bytes / h100_bytes_per_sec(memory bandwidth)
+computation_time = flops / h100_flop_per_sec(accelerator speed)
+Assume we can overlap communication and computation perfectly.
+total_time = max(communication_time, computation_time)  
+What is the bottleneck?
+    
+Memory-bound: communication time > computation time 
+Compute-bound: computation time > communication time
 
 ### Questions → review
-
+FLOPs and FLOP/S (6 * TOKEN * PERAMETERS)
 -
 
 ---
