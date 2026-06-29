@@ -52,14 +52,14 @@ A pattern-based coding interview prep vault. Each folder covers one algorithmic 
 ### Binary Search
 | File | Problem | Difficulty |
 |---|---|---|
-| [01_binary_search.py](binary-search/problems/01_binary_search.py) | Binary Search (LC 704) | Easy |
-| [02_search_first_last.py](binary-search/problems/02_search_first_last.py) | Find First and Last Position (LC 34) | Medium |
+| [01_binary_search.py](binary-search/problems/01_binary_search.py) | Binary Search ([LC 704](https://leetcode.com/problems/binary-search/)) | Easy |
+| [02_search_first_last.py](binary-search/problems/02_search_first_last.py) | Find First and Last Position ([LC 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)) | Medium |
 
 ### Sliding Window
 | File | Problem | Difficulty |
 |---|---|---|
-| [longest_substring_unique_3.py](sliding-windows/problems/longest_substring_unique_3.py) | Longest Substring Without Repeating Characters (LC 3) | Medium |
-| [find_anagrams_in_string_438.py](sliding-windows/problems/find_anagrams_in_string_438.py) | Find All Anagrams in a String (LC 438) | Medium |
+| [longest_substring_unique_3.py](sliding-windows/problems/longest_substring_unique_3.py) | Longest Substring Without Repeating Characters ([LC 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)) | Medium |
+| [find_anagrams_in_string_438.py](sliding-windows/problems/find_anagrams_in_string_438.py) | Find All Anagrams in a String ([LC 438](https://leetcode.com/problems/find-all-anagrams-in-a-string/)) | Medium |
 
 ---
 

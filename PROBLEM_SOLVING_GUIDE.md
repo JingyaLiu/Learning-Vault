@@ -36,7 +36,7 @@ Most people read the problem once and jump to coding. That's the mistake.
 
 **Red flag:** If you can't restate the problem in one sentence, you don't understand it yet.
 
-**Example (LC 3 — Longest Substring Without Repeating Characters):**
+**Example ([LC 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) — Longest Substring Without Repeating Characters):**
 - Input: a string
 - Output: a single integer (length)
 - Constraint: characters must be unique in the window

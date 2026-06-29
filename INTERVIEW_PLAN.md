@@ -52,10 +52,10 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [x] | Binary Search | 704 | ⭐⭐ | [01_binary_search.py](binary-search/problems/01_binary_search.py) |
-| [x] | Find First and Last Position | 34 | ⭐⭐ | [02_search_first_last.py](binary-search/problems/02_search_first_last.py) |
+| [x] | Binary Search | [704](https://leetcode.com/problems/binary-search/) | ⭐⭐ | [01_binary_search.py](binary-search/problems/01_binary_search.py) |
+| [x] | Find First and Last Position | [34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | ⭐⭐ | [02_search_first_last.py](binary-search/problems/02_search_first_last.py) |
 
-*Pass 2 extras for this pattern: Search Insert (LC 35), Rotated Array (LC 33), Min in Rotated (LC 153)*
+*Pass 2 extras for this pattern: Search Insert ([LC 35](https://leetcode.com/problems/search-insert-position/)), Rotated Array ([LC 33](https://leetcode.com/problems/search-in-rotated-sorted-array/)), Min in Rotated ([LC 153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/))*
 
 ---
 
@@ -64,8 +64,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Two Sum | 1 | ⭐⭐ | [01_two_sum.py](hash-maps/problems/01_two_sum.py) |
-| [ ] | Valid Anagram | 242 | ⭐ | — |
+| [ ] | Two Sum | [1](https://leetcode.com/problems/two-sum/) | ⭐⭐ | [01_two_sum.py](hash-maps/problems/01_two_sum.py) |
+| [ ] | Valid Anagram | [242](https://leetcode.com/problems/valid-anagram/) | ⭐ | — |
 
 ---
 
@@ -74,8 +74,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Valid Palindrome | 125 | ⭐ | [03_valid_palindrome.py](two-pointer/problems/03_valid_palindrome.py) |
-| [ ] | Two Sum II | 167 | ⭐ | [01_pair_sum_sorted.py](two-pointer/problems/01_pair_sum_sorted.py) |
+| [ ] | Valid Palindrome | [125](https://leetcode.com/problems/valid-palindrome/) | ⭐ | [03_valid_palindrome.py](two-pointer/problems/03_valid_palindrome.py) |
+| [ ] | Two Sum II | [167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | ⭐ | [01_pair_sum_sorted.py](two-pointer/problems/01_pair_sum_sorted.py) |
 
 ---
 
@@ -84,8 +84,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Longest Substring Without Repeating | 3 | ⭐⭐ | [longest_substring_unique_3.py](sliding-windows/problems/longest_substring_unique_3.py) |
-| [ ] | Find All Anagrams in a String | 438 | ⭐ | [find_anagrams_in_string_438.py](sliding-windows/problems/find_anagrams_in_string_438.py) |
+| [ ] | Longest Substring Without Repeating | [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | ⭐⭐ | [longest_substring_unique_3.py](sliding-windows/problems/longest_substring_unique_3.py) |
+| [ ] | Find All Anagrams in a String | [438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | ⭐ | [find_anagrams_in_string_438.py](sliding-windows/problems/find_anagrams_in_string_438.py) |
 
 ---
 
@@ -94,8 +94,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Reverse Linked List | 206 | ⭐⭐ | — |
-| [ ] | Linked List Cycle | 141 | ⭐⭐ | — |
+| [ ] | Reverse Linked List | [206](https://leetcode.com/problems/reverse-linked-list/) | ⭐⭐ | — |
+| [ ] | Linked List Cycle | [141](https://leetcode.com/problems/linked-list-cycle/) | ⭐⭐ | — |
 
 ---
 
@@ -104,8 +104,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Middle of the Linked List | 876 | ⭐ | — |
-| [ ] | Happy Number | 202 | ⭐ | — |
+| [ ] | Middle of the Linked List | [876](https://leetcode.com/problems/middle-of-the-linked-list/) | ⭐ | — |
+| [ ] | Happy Number | [202](https://leetcode.com/problems/happy-number/) | ⭐ | — |
 
 ---
 
@@ -113,8 +113,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Valid Parentheses | 20 | ⭐⭐ | — |
-| [ ] | Daily Temperatures | 739 | ⭐⭐ | — |
+| [ ] | Valid Parentheses | [20](https://leetcode.com/problems/valid-parentheses/) | ⭐⭐ | — |
+| [ ] | Daily Temperatures | [739](https://leetcode.com/problems/daily-temperatures/) | ⭐⭐ | — |
 
 ---
 
@@ -122,8 +122,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Range Sum Query Immutable | 303 | ⭐ | — |
-| [ ] | Subarray Sum Equals K | 560 | ⭐⭐ | — |
+| [ ] | Range Sum Query Immutable | [303](https://leetcode.com/problems/range-sum-query-immutable/) | ⭐ | — |
+| [ ] | Subarray Sum Equals K | [560](https://leetcode.com/problems/subarray-sum-equals-k/) | ⭐⭐ | — |
 
 ---
 
@@ -131,8 +131,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Merge Intervals | 56 | ⭐⭐ | — |
-| [ ] | Meeting Rooms II | 253 | ⭐⭐ | — |
+| [ ] | Merge Intervals | [56](https://leetcode.com/problems/merge-intervals/) | ⭐⭐ | — |
+| [ ] | Meeting Rooms II | [253](https://leetcode.com/problems/meeting-rooms-ii/) | ⭐⭐ | — |
 
 ---
 
@@ -140,8 +140,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Maximum Depth of Binary Tree | 104 | ⭐⭐ | — |
-| [ ] | Binary Tree Level Order Traversal | 102 | ⭐⭐ | — |
+| [ ] | Maximum Depth of Binary Tree | [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | ⭐⭐ | — |
+| [ ] | Binary Tree Level Order Traversal | [102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | ⭐⭐ | — |
 
 ---
 
@@ -149,8 +149,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Validate Binary Search Tree | 98 | ⭐⭐ | — |
-| [ ] | Lowest Common Ancestor | 236 | ⭐⭐ | — |
+| [ ] | Validate Binary Search Tree | [98](https://leetcode.com/problems/validate-binary-search-tree/) | ⭐⭐ | — |
+| [ ] | Lowest Common Ancestor | [236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | ⭐⭐ | — |
 
 ---
 
@@ -158,8 +158,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Implement Trie | 208 | ⭐ | — |
-| [ ] | Design Add and Search Words | 211 | ⭐ | — |
+| [ ] | Implement Trie | [208](https://leetcode.com/problems/implement-trie-prefix-tree/) | ⭐ | — |
+| [ ] | Design Add and Search Words | [211](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | ⭐ | — |
 
 ---
 
@@ -167,8 +167,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Number of Islands | 200 | ⭐⭐ | — |
-| [ ] | Course Schedule | 207 | ⭐⭐ | — |
+| [ ] | Number of Islands | [200](https://leetcode.com/problems/number-of-islands/) | ⭐⭐ | — |
+| [ ] | Course Schedule | [207](https://leetcode.com/problems/course-schedule/) | ⭐⭐ | — |
 
 ---
 
@@ -176,8 +176,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Kth Largest Element in an Array | 215 | ⭐⭐ | — |
-| [ ] | Top K Frequent Elements | 347 | ⭐⭐ | — |
+| [ ] | Kth Largest Element in an Array | [215](https://leetcode.com/problems/kth-largest-element-in-an-array/) | ⭐⭐ | — |
+| [ ] | Top K Frequent Elements | [347](https://leetcode.com/problems/top-k-frequent-elements/) | ⭐⭐ | — |
 
 ---
 
@@ -185,8 +185,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Best Time to Buy and Sell Stock | 121 | ⭐⭐ | — |
-| [ ] | Jump Game | 55 | ⭐ | — |
+| [ ] | Best Time to Buy and Sell Stock | [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | ⭐⭐ | — |
+| [ ] | Jump Game | [55](https://leetcode.com/problems/jump-game/) | ⭐ | — |
 
 ---
 
@@ -194,8 +194,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Subsets | 78 | ⭐⭐ | — |
-| [ ] | Combination Sum | 39 | ⭐⭐ | — |
+| [ ] | Subsets | [78](https://leetcode.com/problems/subsets/) | ⭐⭐ | — |
+| [ ] | Combination Sum | [39](https://leetcode.com/problems/combination-sum/) | ⭐⭐ | — |
 
 ---
 
@@ -203,8 +203,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Climbing Stairs | 70 | ⭐⭐ | — |
-| [ ] | Coin Change | 322 | ⭐⭐ | — |
+| [ ] | Climbing Stairs | [70](https://leetcode.com/problems/climbing-stairs/) | ⭐⭐ | — |
+| [ ] | Coin Change | [322](https://leetcode.com/problems/coin-change/) | ⭐⭐ | — |
 
 ---
 
@@ -212,8 +212,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Sort Colors | 75 | ⭐ | — |
-| [ ] | Search in Rotated Sorted Array | 33 | ⭐⭐ | — |
+| [ ] | Sort Colors | [75](https://leetcode.com/problems/sort-colors/) | ⭐ | — |
+| [ ] | Search in Rotated Sorted Array | [33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | ⭐⭐ | — |
 
 ---
 
@@ -221,8 +221,8 @@ Check off each day when both problems are done.
 
 | Done | Problem | LC | FAANG | Vault |
 |---|---|---|---|---|
-| [ ] | Single Number | 136 | ⭐ | — |
-| [ ] | Rotate Image | 48 | ⭐ | — |
+| [ ] | Single Number | [136](https://leetcode.com/problems/single-number/) | ⭐ | — |
+| [ ] | Rotate Image | [48](https://leetcode.com/problems/rotate-image/) | ⭐ | — |
 
 ---
 
@@ -245,26 +245,26 @@ Same order as Pass 1. **Do not read notes again** unless stuck — jump straight
 
 | Day | Pattern | Problem A | Problem B |
 |---|---|---|---|
-| 21 | Hash Maps | Group Anagrams (LC 49) ⭐⭐ | Contains Duplicate (LC 217) |
-| 22 | Two Pointers | 3Sum (LC 15) ⭐⭐ | Container With Most Water (LC 11) ⭐⭐ |
-| 23 | Sliding Window | Minimum Window Substring (LC 76) ⭐⭐ | Longest Repeating Char Replacement (LC 424) |
-| 24 | Binary Search | Search Insert (LC 35) ⭐ | Find Min in Rotated Array (LC 153) ⭐⭐ |
-| 25 | Linked Lists | Merge Two Sorted Lists (LC 21) ⭐⭐ | LRU Cache (LC 146) ⭐⭐ |
-| 26 | Fast/Slow | Linked List Cycle II (LC 142) | Remove Nth From End (LC 19) |
-| 27 | Stacks | Min Stack (LC 155) | Evaluate RPN (LC 150) |
-| 28 | Prefix Sums | Product of Array Except Self (LC 238) ⭐⭐ | Maximum Subarray (LC 53) ⭐⭐ |
-| 29 | Intervals | Insert Interval (LC 57) | Non-overlapping Intervals (LC 435) |
-| 30 | Trees | Invert Binary Tree (LC 226) ⭐⭐ | Binary Tree Max Path Sum (LC 124) ⭐⭐ |
-| 31 | Trees | Serialize/Deserialize BST (LC 449) ⭐⭐ | Construct from Preorder/Inorder (LC 105) |
-| 32 | Tries | Word Search II (LC 212) | — (re-solve LC 208 from memory) |
-| 33 | Graphs | Clone Graph (LC 133) | Word Ladder (LC 127) ⭐⭐ |
-| 34 | Heaps | Merge K Sorted Lists (LC 23) ⭐⭐ | Find Median from Data Stream (LC 295) ⭐⭐ |
-| 35 | Greedy | Gas Station (LC 134) | Task Scheduler (LC 621) |
-| 36 | Backtracking | Permutations (LC 46) | Letter Combinations (LC 17) |
-| 37 | DP | House Robber (LC 198) ⭐⭐ | Word Break (LC 139) ⭐⭐ |
-| 38 | DP | Longest Increasing Subsequence (LC 300) ⭐⭐ | Decode Ways (LC 91) |
-| 39 | Sort & Search | Sort List (LC 148) | Koko Eating Bananas (LC 875) |
-| 40 | Bit & Math | Number of 1 Bits (LC 191) | Pow(x, n) (LC 50) |
+| 21 | Hash Maps | Group Anagrams ([LC 49](https://leetcode.com/problems/group-anagrams/)) ⭐⭐ | Contains Duplicate ([LC 217](https://leetcode.com/problems/contains-duplicate/)) |
+| 22 | Two Pointers | 3Sum ([LC 15](https://leetcode.com/problems/3sum/)) ⭐⭐ | Container With Most Water ([LC 11](https://leetcode.com/problems/container-with-most-water/)) ⭐⭐ |
+| 23 | Sliding Window | Minimum Window Substring ([LC 76](https://leetcode.com/problems/minimum-window-substring/)) ⭐⭐ | Longest Repeating Char Replacement ([LC 424](https://leetcode.com/problems/longest-repeating-character-replacement/)) |
+| 24 | Binary Search | Search Insert ([LC 35](https://leetcode.com/problems/search-insert-position/)) ⭐ | Find Min in Rotated Array ([LC 153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)) ⭐⭐ |
+| 25 | Linked Lists | Merge Two Sorted Lists ([LC 21](https://leetcode.com/problems/merge-two-sorted-lists/)) ⭐⭐ | LRU Cache ([LC 146](https://leetcode.com/problems/lru-cache/)) ⭐⭐ |
+| 26 | Fast/Slow | Linked List Cycle II ([LC 142](https://leetcode.com/problems/linked-list-cycle-ii/)) | Remove Nth From End ([LC 19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)) |
+| 27 | Stacks | Min Stack ([LC 155](https://leetcode.com/problems/min-stack/)) | Evaluate RPN ([LC 150](https://leetcode.com/problems/evaluate-reverse-polish-notation/)) |
+| 28 | Prefix Sums | Product of Array Except Self ([LC 238](https://leetcode.com/problems/product-of-array-except-self/)) ⭐⭐ | Maximum Subarray ([LC 53](https://leetcode.com/problems/maximum-subarray/)) ⭐⭐ |
+| 29 | Intervals | Insert Interval ([LC 57](https://leetcode.com/problems/insert-interval/)) | Non-overlapping Intervals ([LC 435](https://leetcode.com/problems/non-overlapping-intervals/)) |
+| 30 | Trees | Invert Binary Tree ([LC 226](https://leetcode.com/problems/invert-binary-tree/)) ⭐⭐ | Binary Tree Max Path Sum ([LC 124](https://leetcode.com/problems/binary-tree-maximum-path-sum/)) ⭐⭐ |
+| 31 | Trees | Serialize/Deserialize BST ([LC 449](https://leetcode.com/problems/serialize-and-deserialize-bst/)) ⭐⭐ | Construct from Preorder/Inorder ([LC 105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)) |
+| 32 | Tries | Word Search II ([LC 212](https://leetcode.com/problems/word-search-ii/)) | — (re-solve [LC 208](https://leetcode.com/problems/implement-trie-prefix-tree/) from memory) |
+| 33 | Graphs | Clone Graph ([LC 133](https://leetcode.com/problems/clone-graph/)) | Word Ladder ([LC 127](https://leetcode.com/problems/word-ladder/)) ⭐⭐ |
+| 34 | Heaps | Merge K Sorted Lists ([LC 23](https://leetcode.com/problems/merge-k-sorted-lists/)) ⭐⭐ | Find Median from Data Stream ([LC 295](https://leetcode.com/problems/find-median-from-data-stream/)) ⭐⭐ |
+| 35 | Greedy | Gas Station ([LC 134](https://leetcode.com/problems/gas-station/)) | Task Scheduler ([LC 621](https://leetcode.com/problems/task-scheduler/)) |
+| 36 | Backtracking | Permutations ([LC 46](https://leetcode.com/problems/permutations/)) | Letter Combinations ([LC 17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)) |
+| 37 | DP | House Robber ([LC 198](https://leetcode.com/problems/house-robber/)) ⭐⭐ | Word Break ([LC 139](https://leetcode.com/problems/word-break/)) ⭐⭐ |
+| 38 | DP | Longest Increasing Subsequence ([LC 300](https://leetcode.com/problems/longest-increasing-subsequence/)) ⭐⭐ | Decode Ways ([LC 91](https://leetcode.com/problems/decode-ways/)) |
+| 39 | Sort & Search | Sort List ([LC 148](https://leetcode.com/problems/sort-list/)) | Koko Eating Bananas ([LC 875](https://leetcode.com/problems/koko-eating-bananas/)) |
+| 40 | Bit & Math | Number of 1 Bits ([LC 191](https://leetcode.com/problems/number-of-1-bits/)) | Pow(x, n) ([LC 50](https://leetcode.com/problems/powx-n/)) |
 
 **Pass 2 rest day (Day 41):** re-solve 4 problems from your weakest patterns (from Pass 1 rest day list).
 
@@ -285,12 +285,12 @@ Same order as Pass 1. **Do not read notes again** unless stuck — jump straight
 
 | Day | Problem 1 | Problem 2 (re-solve) |
 |---|---|---|
-| A1 | Trapping Rain Water (LC 42) ⭐⭐ | Two Sum |
-| A2 | Valid Parentheses (LC 20) ⭐⭐ | Longest Substring |
-| A3 | Rotting Oranges (LC 994) | Merge Intervals |
-| A4 | Binary Tree LCA (LC 236) | 3Sum |
-| A5 | Merge K Sorted Lists (LC 23) | Number of Islands |
-| A6 | Word Break (LC 139) | LRU Cache |
+| A1 | Trapping Rain Water ([LC 42](https://leetcode.com/problems/trapping-rain-water/)) ⭐⭐ | Two Sum |
+| A2 | Valid Parentheses ([LC 20](https://leetcode.com/problems/valid-parentheses/)) ⭐⭐ | Longest Substring |
+| A3 | Rotting Oranges ([LC 994](https://leetcode.com/problems/rotting-oranges/)) | Merge Intervals |
+| A4 | Binary Tree LCA ([LC 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)) | 3Sum |
+| A5 | Merge K Sorted Lists ([LC 23](https://leetcode.com/problems/merge-k-sorted-lists/)) | Number of Islands |
+| A6 | Word Break ([LC 139](https://leetcode.com/problems/word-break/)) | LRU Cache |
 | A7 | Rest | Skim cheat sheet |
 
 ### Week B — Timed mocks
@@ -312,37 +312,37 @@ Use as Pass 3 checklist. All should be solvable from memory by interview day.
 
 | # | Problem | LC | Pass |
 |---|---|---|---|
-| 1 | Two Sum | 1 | 1 |
-| 2 | Valid Parentheses | 20 | 2 |
-| 3 | Longest Substring Without Repeating | 3 | 1 |
-| 4 | Minimum Window Substring | 76 | 2 |
-| 5 | 3Sum | 15 | 2 |
-| 6 | Container With Most Water | 11 | 2 |
-| 7 | Product of Array Except Self | 238 | 2 |
-| 8 | Merge Intervals | 56 | 1 |
-| 9 | Meeting Rooms II | 253 | 1 |
-| 10 | Binary Search | 704 | 1 ✓ |
-| 11 | First & Last Position | 34 | 1 ✓ |
-| 12 | Search Rotated Sorted Array | 33 | 2 |
-| 13 | Reverse Linked List | 206 | 1 |
-| 14 | LRU Cache | 146 | 2 |
-| 15 | Number of Islands | 200 | 1 |
-| 16 | Course Schedule | 207 | 1 |
-| 17 | Max Depth / Level Order | 104 / 102 | 1 |
-| 18 | Validate BST | 98 | 1 |
-| 19 | Lowest Common Ancestor | 236 | 1 |
-| 20 | Kth Largest Element | 215 | 1 |
-| 21 | Top K Frequent Elements | 347 | 1 |
-| 22 | Merge K Sorted Lists | 23 | 2 |
-| 23 | Subsets | 78 | 1 |
-| 24 | Combination Sum | 39 | 1 |
-| 25 | Climbing Stairs | 70 | 1 |
-| 26 | House Robber | 198 | 2 |
-| 27 | Coin Change | 322 | 1 |
-| 28 | Word Break | 139 | 2 |
-| 29 | Longest Increasing Subsequence | 300 | 2 |
-| 30 | Trapping Rain Water | 42 | 3 |
-| 31 | Word Ladder | 127 | 2 |
+| 1 | Two Sum | [1](https://leetcode.com/problems/two-sum/) | 1 |
+| 2 | Valid Parentheses | [20](https://leetcode.com/problems/valid-parentheses/) | 2 |
+| 3 | Longest Substring Without Repeating | [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 1 |
+| 4 | Minimum Window Substring | [76](https://leetcode.com/problems/minimum-window-substring/) | 2 |
+| 5 | 3Sum | [15](https://leetcode.com/problems/3sum/) | 2 |
+| 6 | Container With Most Water | [11](https://leetcode.com/problems/container-with-most-water/) | 2 |
+| 7 | Product of Array Except Self | [238](https://leetcode.com/problems/product-of-array-except-self/) | 2 |
+| 8 | Merge Intervals | [56](https://leetcode.com/problems/merge-intervals/) | 1 |
+| 9 | Meeting Rooms II | [253](https://leetcode.com/problems/meeting-rooms-ii/) | 1 |
+| 10 | Binary Search | [704](https://leetcode.com/problems/binary-search/) | 1 ✓ |
+| 11 | First & Last Position | [34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 1 ✓ |
+| 12 | Search Rotated Sorted Array | [33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 2 |
+| 13 | Reverse Linked List | [206](https://leetcode.com/problems/reverse-linked-list/) | 1 |
+| 14 | LRU Cache | [146](https://leetcode.com/problems/lru-cache/) | 2 |
+| 15 | Number of Islands | [200](https://leetcode.com/problems/number-of-islands/) | 1 |
+| 16 | Course Schedule | [207](https://leetcode.com/problems/course-schedule/) | 1 |
+| 17 | Max Depth / Level Order | [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) / [102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 1 |
+| 18 | Validate BST | [98](https://leetcode.com/problems/validate-binary-search-tree/) | 1 |
+| 19 | Lowest Common Ancestor | [236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 1 |
+| 20 | Kth Largest Element | [215](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 1 |
+| 21 | Top K Frequent Elements | [347](https://leetcode.com/problems/top-k-frequent-elements/) | 1 |
+| 22 | Merge K Sorted Lists | [23](https://leetcode.com/problems/merge-k-sorted-lists/) | 2 |
+| 23 | Subsets | [78](https://leetcode.com/problems/subsets/) | 1 |
+| 24 | Combination Sum | [39](https://leetcode.com/problems/combination-sum/) | 1 |
+| 25 | Climbing Stairs | [70](https://leetcode.com/problems/climbing-stairs/) | 1 |
+| 26 | House Robber | [198](https://leetcode.com/problems/house-robber/) | 2 |
+| 27 | Coin Change | [322](https://leetcode.com/problems/coin-change/) | 1 |
+| 28 | Word Break | [139](https://leetcode.com/problems/word-break/) | 2 |
+| 29 | Longest Increasing Subsequence | [300](https://leetcode.com/problems/longest-increasing-subsequence/) | 2 |
+| 30 | Trapping Rain Water | [42](https://leetcode.com/problems/trapping-rain-water/) | 3 |
+| 31 | Word Ladder | [127](https://leetcode.com/problems/word-ladder/) | 2 |
 
 ---
 
@@ -393,9 +393,9 @@ Date | Pass | Problem (LC) | Thought pattern / actual | Stuck where | Fix
 
 | Date | Problem | Lesson |
 |---|---|---|
-| Jun 23 | LC 704 | left<=right, mid±1 |
-| Jun 23 | LC 34 | find_first → right=mid-1; find_last → left=mid+1 |
-| | LC 35 | not found → return `left` |
+| Jun 23 | [LC 704](https://leetcode.com/problems/binary-search/) | left<=right, mid±1 |
+| Jun 23 | [LC 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | find_first → right=mid-1; find_last → left=mid+1 |
+| | [LC 35](https://leetcode.com/problems/search-insert-position/) | not found → return `left` |
 
 ---
 
@@ -449,8 +449,8 @@ Date | Pass | Problem (LC) | Thought pattern / actual | Stuck where | Fix
 
 | Done | Problem | LC | Vault |
 |---|---|---|---|
-| [x] | Binary Search | 704 | [01_binary_search.py](binary-search/problems/01_binary_search.py) |
-| [x] | Find First and Last Position | 34 | [02_search_first_last.py](binary-search/problems/02_search_first_last.py) |
+| [x] | Binary Search | [704](https://leetcode.com/problems/binary-search/) | [01_binary_search.py](binary-search/problems/01_binary_search.py) |
+| [x] | Find First and Last Position | [34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [02_search_first_last.py](binary-search/problems/02_search_first_last.py) |
 
 **Key takeaways:** standard template (704) · on match keep searching left/right (34) · `result` is a single int per helper.
 
@@ -462,8 +462,8 @@ Date | Pass | Problem (LC) | Thought pattern / actual | Stuck where | Fix
 
 | # | Problem | LC | Tip |
 |---|---|---|---|
-| 1 | Two Sum | 1 | Plan in comments before coding. Check vault after. |
-| 2 | Valid Anagram | 242 | Ask: hash map or sort? |
+| 1 | Two Sum | [1](https://leetcode.com/problems/two-sum/) | Plan in comments before coding. Check vault after. |
+| 2 | Valid Anagram | [242](https://leetcode.com/problems/valid-anagram/) | Ask: hash map or sort? |
 
 **After solving:** compare problem 1 with [01_two_sum.py](hash-maps/problems/01_two_sum.py).
 
