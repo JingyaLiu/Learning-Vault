@@ -70,22 +70,15 @@ from typing import List
 
 
 def search(nums: List[int], target: int) -> int:
-    """
-    Standard binary search: find exact index of target, or -1 if absent.
-    Time: O(log n), Space: O(1)
-    """
     left, right = 0, len(nums) - 1
-
-    while left <= right:
+    while left <= right:  # <= so we check when one element remains
         mid = left + (right - left) // 2
-
         if nums[mid] == target:
             return mid
         elif nums[mid] < target:
             left = mid + 1
         else:
             right = mid - 1
-
     return -1
 
 

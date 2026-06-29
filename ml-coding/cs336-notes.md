@@ -29,71 +29,97 @@
 
 ---
 
-## Lec 2 — PyTorch, einops, FLOPs, memory
+## Lec 2 — PyTorch, einops, FLOPs, memory ✅
 
-**Date watched:**  
+**Date watched:** 6/27/26  
 **Trace:** [Lec 2](https://cs336.stanford.edu/lectures/?trace=lecture_02) · [lecture_02.py](cs336-materials/lecture_02.py)
 
 ### 3 takeaways
 
-1. Mechanics, straightforward (pytorch semantics)
-2. mindset, resource accounting
-3. Intuitions, how resources are spent.
+1. **Mechanics:** PyTorch tensor semantics, einops, FLOP counting
+2. **Mindset:** always do **resource accounting** (memory + compute)
+3. **Intuition:** elementwise ops → **memory-bound**; large matmuls → can be **compute-bound**
 
-tensor: fp32, fp16, bf16, mixed precision (AMP), fp8, fp4, 
-
-### Shapes
+### Shapes & dtypes
 
 - `(B, T, D)` = **B** batch · **T** sequence length · **D** model/hidden dim
 - Example: batch 32, seq 512, dim 768 → `(32, 512, 768)`
+- **Dtypes:** fp32, fp16, bf16, mixed precision (AMP), fp8, fp4 — trade precision vs memory/speed
 
 ### einops (one example each)
 
-- **rearrange:** (split/merge dims, e.g. heads) 
-- **reduce:** (sum/mean over dim)
-- **einsum:** (matmul pattern)
-
-My example:
+- **rearrange:** split/merge dims (e.g. flatten `heads × hidden` ↔ separate dims)
+- **reduce:** sum/mean/max over a named dim
+- **einsum:** generalized matmul with named dims
 
 ```python
-# fill after watching tensor_einops / einops_rearrange sections
-x = torch.ones(3, 8)  # seq total_hidden 
-...where total_hidden is a flattened representation of heads * hidden1
-w = torch.ones(4, 4)  # hidden1 hidden2 
+# rearrange + einsum (from lecture einops_rearrange)
+x = torch.ones(3, 8)   # seq, total_hidden (= heads * hidden1)
+w = torch.ones(4, 4)   # hidden1, hidden2
 
-x = rearrange(x, "...(heads hidden1) ->  ... heads hidden1", heads=2)
-x = einsum(x, w, "...(hidden1 hidden1 hidden2) -> ... hidden2")
-
+x = rearrange(x, "... (heads hidden1) -> ... heads hidden1", heads=2)
+x = einsum(x, w, "... hidden1, hidden1 hidden2 -> ... hidden2")
 x = rearrange(x, "... heads hidden2 -> ... (heads hidden2)")
 
+# reduce (from lecture einops_reduce)
+y = reduce(x, "... hidden -> ...", "sum")
 ```
 
 ### FLOPs / memory
 
-- Attention cost vs T: **O(T²)** compute and memory
-- Matmul FLOPs: roughly **2×** multiply-adds for `(M,K) @ (K,N)`
-- **Arithmetic intensity:** FLOPs / bytes moved — if low, **memory bandwidth** bound (GPU HBM)
-MFU: model flops utilization, mfu = actual_flop_per_sec/ promised_flop_per_sec, MFU of ≥ 0.5 is quite good!
-
-communication_time = bytes / h100_bytes_per_sec(memory bandwidth)
-computation_time = flops / h100_flop_per_sec(accelerator speed)
-Assume we can overlap communication and computation perfectly.
-total_time = max(communication_time, computation_time)  
-What is the bottleneck?
-    
-Memory-bound: communication time > computation time 
-Compute-bound: computation time > communication time
+- **FLOPs** = floating-point **operations** (amount of work)
+- **FLOP/s** (FLOPS) = ops **per second** (hardware speed) — same pronunciation, different meaning
+- Matmul FLOPs: **2 × M × K × N** for `(M,K) @ (K,N)` — one mul + one add per (i,j,k)
+- **Training (rough):** total ≈ **6 × (# tokens) × (# parameters)**; per step ≈ **6 × B × num_params**
+- **Arithmetic intensity:** FLOPs / bytes moved
+- **Roofline:** memory-bound if intensity **<** accelerator intensity (H100 FLOP/s ÷ bytes/s)
+- **MFU** (model FLOPs utilization) = actual_FLOP/s ÷ promised_FLOP/s — **≥ 0.5** is good
+- **Bottleneck timing:** `total_time = max(bytes/bandwidth, flops/FLOP/s)` (with perfect overlap)
+  - Memory-bound: communication time > computation time (e.g. ReLU, GELU)
+  - Compute-bound: computation time > communication time (e.g. large matmul)
 
 ### Questions → review
-FLOPs and FLOP/S (6 * TOKEN * PERAMETERS)
--
+
+- Transformer FLOP accounting in detail (Assignment 1 / later lectures)
+- Attention O(T²) — covered more in Lec 3 / Lec 10
 
 ---
 
 ## Lec 3 — Architectures, hyperparameters
 
 **Date watched:**  
-**Link:** playlist #3 · PDF on [course site](https://cs336.stanford.edu/)
+**Watch:** [YouTube Lec 3](https://www.youtube.com/watch?v=lVynu4bo1rY) @ **1.25×** (~70 min) · PDF on [course schedule](https://cs336.stanford.edu/) (no trace viewer for Lec 3)
+
+### Monday session — how to watch (90 min)
+
+**Goal:** fill **3 takeaways** + decoder diagram. Skip stability/MQA/long-context on first pass.
+
+| Phase | Time | What |
+|---|---|---|
+| **A** | 60 min | YouTube @ 1.25× — pause only at checkpoints below |
+| **B** | 15 min | Fill 3 takeaways + architecture bullets |
+| **C** | 15 min | Draw decoder stack from memory (Block 2) |
+
+#### Listen-for checkpoints (pause → one sentence in notes)
+
+| ~time | Topic | Your one-liner |
+|---|---|---|
+| 0:00 | Why survey many LMs instead of ablate everything? | |
+| 8:54 | **Pre-norm vs post-norm** — which do modern LMs use? | |
+| 20:16 | **FFN:** ReLU → GELU → **SwiGLU** — what's in one block? | |
+| 27:10 | Serial vs parallel block (attn then FFN) | |
+| 31:12 | **RoPE** — why relative position? | |
+| 43:36 | FFN dim ≈ **4× D** (or **8/3× D** with GLU) | |
+| 50:41 | **H heads**, Dh = D/H | |
+
+**Skip guilt-free (Tue drill covers this):** Z-loss, QK norm, MQA/GQA, sliding window (~1:05–1:28)
+
+#### Interview answers to verify while watching
+
+- **Decoder-only for GPT LMs:** causal self-attn only · one stack predicts next token · no encoder cross-attn
+- **One block (modern):** pre-norm → MHA (causal) → residual → pre-norm → SwiGLU FFN → residual
+- **Causal mask:** position i cannot attend to j > i
+- **Shapes:** embed `(B,T,D)` · same through each block · logits `(B,T,V)`
 
 ### 3 takeaways
 
@@ -109,18 +135,35 @@ FLOPs and FLOP/S (6 * TOKEN * PERAMETERS)
 
 ### Key hyperparameters
 
-| Param | What it controls |
-|---|---|
-| L (layers) | depth |
-| H (heads) | parallel attention paths; D = H × Dh |
-| D (model dim) | width |
-| T_max (context) | max sequence length |
+| Param | What it controls | Interview default |
+|---|---|---|
+| L (layers) | depth | more L = deeper reasoning, harder to train |
+| H (heads) | parallel attention paths | D = H × Dh |
+| D (model dim) | width | aspect ratio D/L ≈ 100 (rule of thumb) |
+| T_max (context) | max sequence length | longer T → O(T²) attention cost |
+| D_ff | FFN inner dim | ≈ 4D (SwiGLU: ≈ 8/3 × D) |
+| V (vocab) | tokenizer size | ~32k mono · 100k+ multilingual |
 
 ### Decoder-only stack (draw from memory)
 
 ```
-(paste your drawing here — or use THIS_WEEK.md template)
+Input token IDs (B, T)
+    ↓
+Token embed + positional (RoPE/learned)
+    ↓
+┌─ Transformer block × L ─────────────────┐
+│  Pre-norm → Multi-head self-attn (causal)│
+│  + residual                              │
+│  Pre-norm → FFN (SwiGLU)                 │
+│  + residual                              │
+└──────────────────────────────────────────┘
+    ↓
+Layer norm → LM head (D → V)
+    ↓
+Logits (B, T, V) → next-token CE loss
 ```
+
+**Check aloud after drawing:** `(B,T,D)` at embed and block out · why causal mask · where O(T²) happens
 
 ---
 

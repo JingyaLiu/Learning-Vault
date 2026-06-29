@@ -1,37 +1,69 @@
-# This Week · Jul W1
+# This Week · Jul W2
 
-> **Profile:** Jingya Liu · Staff DS @ Walmart · [LinkedIn](https://www.linkedin.com/in/jingya-tina-liu/) · ~12–14 hr/week  
-> **Full plan:** [ML_JOB_SEARCH_PLAN.md](ML_JOB_SEARCH_PLAN.md#prep-by-target-tier)  
-> **Branch:** `lc` for LC · this branch for ML/process
+> **Profile:** Jingya Liu · Staff DS @ Walmart · ~12–14 hr/week  
+> **Full plan:** [ML_JOB_SEARCH_PLAN.md](ML_JOB_SEARCH_PLAN.md#jul-w2--jul-1420--ml-drills--outreach)  
+> **Branch:** `lc` for LC · this branch for ML/process  
+> **Prev week:** [JUL_W1.md](JUL_W1.md)
 
-**Last updated:** Sat Jun 27 — **Day 5 (Saturday)** active · Lec 2 + 3
+**Last updated:** Mon Jul 14 · **Day 1 (Monday)** ← start here
 
 ---
 
-## Today · Day 5 · Saturday (~3 hr)
+## W1 carry-over (schedule early)
+
+| Item | From W1 | Slot |
+|---|---|---|
+| CS336 **Lec 3** + decoder diagram | Sat skipped | **Mon** |
+| Pipeline tier tags | Sun optional | **Thu** 30 min |
+| LinkedIn bullets (**R** + **X**) | deferred | **Thu** optional |
+| Pitch **X** — one offline eval metric (vs GPT-4 or resolution rate) | pitch gap | **Thu** 30 min |
+
+---
+
+## Active track this week
+
+| Tier | Focus | Why now |
+|---|---|---|
+| 🎯 **Primary** | **R** + **X** fundamentals | Drills + behavioral before referrals convert |
+| 🏋️ Practice | Map only | Not applying yet |
+| 🎯 Stretch | **Defer P** | Aug W3 |
+| ⭐ Dream | **Skip** | Oct+ |
+
+**Study mix (ML + rapid-fire, excl. LC):** R 15% · X 25% · fundamentals 50% · T 10% · **P 0%**
+
+---
+
+## Week milestones (Sun Jul 20)
+
+- [ ] **01_attention** + **02_mha** pass without peeking ([practice-log](../ml-coding/practice-log.md))
+- [ ] CS336 **Lec 3** notes + decoder diagram · **Lec 4** watched
+- [ ] LC **34** (first/last) + **15** (3Sum) cold · **704** re-solve still clean
+- [ ] §G-X rapid-fire **Q1–5** aloud ([technical-discussion](../technical-discussion/notes.md))
+- [ ] Pitch **X** — add **≥1 eval metric** ([pitch-template](../research/pitch-template.md))
+- [ ] Behavioral stories **1–4** drafted ([story-bank](../behavioral/story-bank.md))
+- [ ] **2 outreach** sent — **Amazon Ads (R)** first ([process-tracker](../job-search/process-tracker.md))
+- [ ] Timed: attention from blank **≤ 45 min** (Sat)
+
+---
+
+## Day by day
+
+### Monday · Day 1 ← **start here**
 
 | Block | Time | Task | Done |
 |---|---|---|---|
-| **1** | 90 min | CS336 **Lec 2** @ 1.25× · [trace](https://cs336.stanford.edu/lectures/?trace=lecture_02) · notes → [cs336-notes.md](../ml-coding/cs336-notes.md) | [ ] |
-| **2** | 60 min | CS336 **Lec 3** @ 1.25× · playlist #3 · architecture notes | [ ] |
-| **3** | 30 min | **Draw decoder-only stack** from memory (template below) | [ ] |
+| **1** | 90 min | CS336 **Lec 3** @ 1.25× · [YouTube](https://www.youtube.com/watch?v=lVynu4bo1rY) · notes → [cs336-notes.md](../ml-coding/cs336-notes.md) | [ ] |
+| **2** | 30 min | **Decoder-only stack** from memory — template in notes | [ ] |
 
-**LC:** off · **No Stretch/P**
+**LC:** off · **No trace viewer** for Lec 3 (PDF + video only) · use **listen-for checkpoints** in notes
 
-### Lec 2 focus (while watching)
+#### Lec 3 focus
 
-- `(B, T, D)` through a batch
-- **einops:** `rearrange`, `reduce`, `einsum` — one example each
-- **FLOPs:** attention **O(T²)** · matmul dominates
-- **Arithmetic intensity:** memory bandwidth bottleneck (HBM ↔ compute)
+- Decoder-only vs encoder-decoder — when each
+- Block = pre-norm → MHA (causal) → residual → pre-norm → FFN → residual
+- Hyperparameters: L layers, H heads, D model, context length T
 
-### Lec 3 focus (while watching)
-
-- Decoder-only vs encoder-decoder
-- Block = attention + FFN + norms + residuals
-- Hyperparameters: layers, heads, D, context length
-
-### Block 3 · Decoder-only stack (draw after Lec 3)
+#### Block 2 · Decoder stack (draw after Lec 3)
 
 ```
 Input token IDs (B, T)
@@ -50,238 +82,103 @@ Layer norm → LM head (D → V)
 Logits (B, T, V) → next-token CE loss
 ```
 
-**Check:** label shapes `(B,T,D)` at embed and block output.
+**Check aloud:** shapes `(B,T,D)` at embed and block output · why causal mask
 
 ---
 
-## Yesterday · Day 4 · Friday ✅
+### Tuesday · Day 2
 
-- [x] LC 125 Valid Palindrome
-- [x] LC 167 Two Sum II
+| Block | Time | Task | Done |
+|---|---|---|---|
+| **1** | 30 min | LC **34** Find First and Last Position · [02_search_first_last.py](../binary-search/problems/02_search_first_last.py) · cold | [ ] |
+| **2** | 60 min | Drill **01_attention** · [01_attention.py](../ml-coding/drills/01_attention.py) · no AI | [ ] |
 
-### LC 125 · Valid Palindrome
+**Pattern preview (LC 34):** left/right boundary binary search · `result` + shrink left or right on equal · differs from 704's `left <= right` exact match
 
-**Pattern:** two pointers · `l`, `r` from ends · skip non-alphanumeric · `lower()`
+**Drill pass criteria:** `_test()` green · explain QKᵀ/√d · mask multiply · softmax axis
 
-```python
-while l < r:
-    while l < r and not s[l].isalnum(): l += 1
-    while l < r and not s[r].isalnum(): r -= 1
-    if s[l].lower() != s[r].lower(): return False
-    l += 1; r -= 1
-return True
-```
-
-**Gotchas:** empty string → True · single char → True · don't forget `isalnum()`
+Log time in [practice-log.md](../ml-coding/practice-log.md).
 
 ---
 
-### LC 167 · Two Sum II (sorted array)
+### Wednesday · Day 3
 
-**Pattern:** two pointers · `l=0`, `r=len-1` · move pointer by sum vs `target`
+| Block | Time | Task | Done |
+|---|---|---|---|
+| **1** | 45 min | LC **15** 3Sum · sort + two pointers · [02_triplet_sum.py](../two-pointer/problems/02_triplet_sum.py) | [ ] |
+| **2** | 60 min | Drill **02_mha** · [02_mha.py](../ml-coding/drills/02_mha.py) | [ ] |
 
-```python
-l, r = 0, len(numbers) - 1
-while l < r:
-    s = numbers[l] + numbers[r]
-    if s == target: return [l + 1, r + 1]   # 1-indexed
-    elif s < target: l += 1
-    else: r -= 1
-```
+**3Sum sketch:** sort `nums` · for each `i`: `l=i+1`, `r=n-1` · skip dupes at `i`, `l`, `r`
 
-**Why it works:** sorted → if sum too small, must increase left; too big, decrease right.
-
-**Gotchas:** return **1-indexed** indices · exactly one solution guaranteed
+**MHA:** split D into H heads · per-head attention · concat · W_o projection
 
 ---
 
-**After both:** note pattern in `lc` branch log · target **20 min each** cold.
+### Thursday · Day 4
+
+| Block | Time | Task | Done |
+|---|---|---|---|
+| **1** | 30 min | §G-X rapid-fire **Q1–5** aloud · [technical-discussion/notes.md](../technical-discussion/notes.md) | [ ] |
+| **2** | 30 min | Pitch **X** — fill **one eval metric** + ownership line in [pitch-template](../research/pitch-template.md) | [ ] |
+| **3** | 30 min | Tag **Primary** rows in [process-tracker](../job-search/process-tracker.md) if not done | [ ] |
+| *opt* | 30 min | LinkedIn bullets paste (**R** + **X**) | [ ] |
+
+#### §G-X Q1–5 (answer aloud, ≤60 sec each)
+
+1. Domain FM vs prompt-only GPT-4 — when is FM worth the cost?
+2. Offline eval suite for CX FM — what metrics beyond perplexity?
+3. SFT data mix — how do you balance seller vs consumer utterances?
+4. Online guardrails for production FM — what do you monitor?
+5. **Your CX FM:** one metric you'd defend + one failure mode
 
 ---
 
-## Yesterday · Day 3 · Thursday ✅
+### Friday · Day 5
 
-- [x] CS336 Lec 1 + notes
-- [x] §G-R Q1–9
+| Block | Time | Task | Done |
+|---|---|---|---|
+| **1** | 45 min | LC **3** Longest Substring · [longest_substring_unique_3.py](../sliding-windows/problems/longest_substring_unique_3.py) | [ ] |
+| **2** | 15 min | Re-solve LC **704** cold — confirm `left <= right` stuck | [ ] |
+
+**Sliding window:** expand `r`, shrink `l` when constraint breaks · track best window
 
 ---
 
-## Active track this week
+### Saturday · Day 6
 
-| Tier | Focus | Why now |
+| Block | Time | Task | Done |
+|---|---|---|---|
+| **1** | 90 min | CS336 **Lec 4** @ 1.25× · systems / parallelism skim for interview talk | [ ] |
+| **2** | 45 min | **Timed:** [01_attention.py](../ml-coding/drills/01_attention.py) from **blank file** · no peek | [ ] |
+
+**Sat exit:** attention re-implement ≤ 45 min OR note blockers for Sun review
+
+---
+
+### Sunday · Day 7 — do not skip outreach
+
+| Block | Time | Task | Done |
+|---|---|---|---|
+| **1** | 90 min | Behavioral stories **1–4** STAR · [story-bank.md](../behavioral/story-bank.md) | [ ] |
+| **2** | 60 min | Send **2 outreach** — Amazon Ads (**R**) priority | [ ] |
+
+#### Stories 1–4 (pick Walmart examples)
+
+| # | Theme | Walmart angle (prompt) |
 |---|---|---|
-| 🎯 **Primary** | **R** + **X** | Amazon Ads + Microsoft Copilot = Oct–Nov offer path |
-| 🏋️ Practice | Map only — apply in Aug | Not applying yet |
-| 🎯 Stretch | **Defer P** | Apple FM / Google wait until Aug W3 |
-| ⭐ Dream | **Skip** | Meta/OpenAI until Oct+ |
+| 1 | Conflict / disagreement | Cross-functional ads vs infra on latency budget? |
+| 2 | Failed experiment | Multimodal variant that didn't ship — what you learned |
+| 3 | Tight deadline | A/B launch under holiday traffic / stat-sig window |
+| 4 | Lost technical disagreement | Text-only vs multimodal path before your win |
 
-**Study mix (ML + rapid-fire, excl. LC):** R 35% · X 35% · T 10% · fundamentals 20% · **P 0%**
+#### Outreach checklist
 
----
+1. **Amazon Ads Applied Scientist** — [4173762699](https://www.linkedin.com/jobs/view/4173762699) · pillar **R** · cite multimodal retrieval A/B
+2. Second message: warm contact **or** Microsoft Copilot / Apple Search (**X** or **R**)
 
-## Week milestone (Sun)
+**Template:** 3 sentences — who you are · one metric · specific ask (15-min chat / referral)
 
-- [ ] Pipeline tiers tagged in [process-tracker.md](../job-search/process-tracker.md) (🏋️ / 🎯 Primary / 🎯 Stretch / ⭐)
-- [ ] Pitch **R** + **X** — 2 min each, **each with ≥1 metric** · [pitch-template](../research/pitch-template.md#pitch-variants-by-pillar)
-- [ ] Walmart LinkedIn bullets: ads retrieval (**R**) + CX FM (**X**) — 3 bullets each
-
----
-
-## Pillar focus
-
-| Pillar | This week | Next week |
-|---|---|---|
-| **R** | §G-R Thu (10 Qs) · pitch **R** outline Sun | Jul W3: record pitch **R** |
-| **X** | pitch **X** outline Sun | Jul W4: §G-X + record |
-| **T** | — | Aug W1: Lec 15–16 |
-| **P** | **Do not study** | Aug W3: Lec 7–9 |
-
----
-
-## Day by day
-
-### Tuesday · Day 1 ✓
-
-- [x] **`lc`:** Binary Search — LC 704 + LC 34
-- [ ] Optional: LC 35 Search Insert
-
----
-
-### Wednesday · Day 2 ✓
-
-| Block | Task | Tier |
-|---|---|---|
-| **LC** 60 min | Two Sum (1) + Valid Anagram (242) | Primary (LC baseline) |
-| **Process** 30 min | Tag 8 **Primary** rows in [process-tracker](../job-search/process-tracker.md) | Primary |
-
-**Primary rows to confirm:** Amazon Ads · Amazon Search · Microsoft Copilot · Microsoft Ads · Apple Search · Apple Siri · Snowflake ×2
-
----
-
-### Thursday · Day 3 ✓
-
-| Block | Task | Done |
-|---|---|---|
-| **ML** 60 min | CS336 **Lec 1** + notes | [x] |
-| **Rapid-fire** 15 min | §G-R Q1–9 ✅ · Q10 draft below | [x] |
-
-#### §G-R rapid-fire (Day 3 — answer aloud, ≤60 sec each)
-
-- [x] 1. Dual-tower vs cross-encoder — when use which at ads/search scale?
-
-**Your answer:** dual-tower for retrieval (query–item, cosine); cross-encoder for pair relevance score.
-
-**Model:** **Dual-tower** — separate query/item encoders → cosine/dot → **ANN over full catalog** (recall stage, fast). **Cross-encoder** — query+doc **jointly** encoded → accurate relevance but O(n) → **rerank top-K only** (e.g. 100–500). At ads scale: retrieve with dual-tower + FAISS/HNSW, rerank with cross-encoder.
-
----
-
-- [x] 2. What is ANN (FAISS/HNSW) and what does recall@k trade off against?
-
-**Your answer:** ~~ANN = attention neural network~~; FAISS batch similarity; recall vs search pool.
-
-**Model:** **ANN = Approximate Nearest Neighbor** (not attention). **FAISS/HNSW** = index structures for fast similarity search at scale. **recall@k** = how often the true match appears in top-k. Trades against **latency / compute / memory** — higher recall → scan more candidates or slower index.
-
----
-
-- [x] 3. NDCG vs recall@k — offline vs online, which when?
-
-**Your answer:** ~~NDCG online, recall offline~~
-
-**Model:** **Both NDCG and recall@k are offline.** recall@k → retrieval quality; NDCG@k → ranking with **graded** relevance + position discount. **Online** = A/B: CTR, CVR, RPM, revenue. Train/eval offline on NDCG/recall; ship only if online CTR + guardrails pass.
-
----
-
-- [x] 4. Hard negative mining — why and one failure mode
-
-**Your answer:** similar items, same category; pushes boundary; false negative / popular-negative bias.
-
-**Model:** **Why:** easy negatives don't sharpen the boundary; hard negatives (similar but irrelevant) improve ranking. **Failure mode:** **false negative** — mined item was actually relevant → wrong gradient; or **popularity bias** — always mining head items.
-
----
-
-- [x] 5. Cold start for new queries or advertisers — your approach?
-
-**Your answer:** embedding + similar-item warm-start.
-
-**Model:** **Side features** (category, metadata) in tower; **cluster/default embedding** warm-start; **exploration** budget until enough clicks; **content-based** retrieval until events accumulate; periodic **embedding refresh** as data arrives.
-
----
-
-- [x] 6. Latency budget: 50ms p99 — what do you cut first?
-
-**Your answer:** smaller K, cache embeddings, skip rerank, distill model, ANN params.
-
-**Model:** (1) Reduce **K** candidates (2) **Precompute/cache** item embeddings; cache hot queries (3) **Skip/lighten cross-encoder** rerank (4) **Distill** first-stage model (5) Tune ANN (**efSearch** ↓ = faster, lower recall).
-
----
-
-- [x] 7. Embedding refresh cadence — stale embeddings symptom?
-
-**Your answer:** (was blank)
-
-**Model:** **Cadence:** hot items hourly/daily; full index weekly (depends on catalog churn). **Stale symptoms:** new ads/items **never retrieve well**; offline recall OK but **online CTR drops**; similarity scores miscalibrated after catalog shift.
-
----
-
-- [x] 8. Online A/B for ranking — one metric + one guardrail
-
-**Your answer:** CTR; guardrail revenue?
-
-**Model:** **Primary:** CTR or CVR (ads relevance). **Guardrails:** latency p99 < 50ms; **revenue/session** not down > X%; spam/low-quality rate; user complaint rate. (Revenue is usually the **goal**, not the guardrail.)
-
----
-
-- [x] 9. RAG as retrieval — how is it same/different from ads retrieval?
-
-**Your answer:** both embed + search; ads multi-aspect.
-
-**Model:** **Same:** encode query → retrieve top-K by embedding similarity. **Different:** **RAG** retrieves **chunks** to **augment LLM context** (generative downstream). **Ads** retrieves **ads** → **rank + auction**; multi-objective (relevance × bid × quality score); real-time feedback loops; policy/fraud constraints.
-
----
-
-- [ ] 10. **Your ads retrieval:** one metric + one design choice you'd defend
-
-**Draft (fill `[...]` with your real numbers — even ranges OK):**
-
-> At Walmart Sponsored Products retrieval I owned **[dual-tower / two-stage retrieve-then-rank]** at **[catalog scale — e.g. tens of M ads]**. We improved **recall@[50/100] by [X]%** offline and **online CTR / ad revenue by [Y]%** in A/B. I'd defend **[hard negative mining from same product category / in-batch + mined negatives / two-tower with advertiser side features]** because **[it fixed confusing near-duplicates / improved tail advertiser retrieval / kept p99 latency under [Z] ms]**.
-
-**Short version (60 sec):**
-- **Metric:** recall@100 **[+X%]** · online CTR **[+Y%]** · p99 latency **[Z ms]**
-- **Defend:** dual-tower + hard negatives — improved relevance on **similar SKUs** without blowing latency budget
-
-→ Copy final version to [pitch-template.md](../research/pitch-template.md) row **Phase 2 · Ads retrieval**.
-
-**After Lec 1:** tokenization → encode strings to token IDs · embed → ID → D-dim vector · decoder-only → causal next-token prediction ✅ ([cs336-notes.md](../ml-coding/cs336-notes.md))
-
----
-
-### Friday · Day 4 ← **today**
-
-| Block | Task | Done |
-|---|---|---|
-| **LC** 60 min | Valid Palindrome (125) + Two Sum II (167) | [ ] |
-| **Bonus** | Group Anagrams (49) or §G-R Q2/Q3/Q7 re-drill | [ ] |
-
----
-
-### Saturday · Day 5 ← **today**
-
-| Block | Task | Done |
-|---|---|---|
-| **ML** 90 min | Lec 2 — PyTorch, einops, FLOPs | [ ] |
-| **ML** 60 min | Lec 3 — architectures, hyperparameters | [ ] |
-| **ML** 30 min | Draw decoder-only stack from memory | [ ] |
-
----
-
-### Sunday · Day 6
-
-| Block | Task | Tier |
-|---|---|---|
-| **Process** 2 hr | Tier tags complete; pitch **R** + **X** drafts with metrics; LinkedIn bullets | Primary |
-| **LC** 30 min | Re-solve LC 704 from memory | Primary |
-
-**Outreach (if 15 min left):** identify 1 Amazon Ads contact — do not message until pitch **R** has a metric.
+Use **personal email** · keep confidential per [process-tracker](../job-search/process-tracker.md).
 
 ---
 
@@ -289,22 +186,41 @@ while l < r:
 
 | Day | Minimum | Tier |
 |---|---|---|
-| Wed | Two Sum only | Primary |
-| Thu | Half of Lec 1 + 5 §G-R Qs | Primary **R** |
-| Sun | **Do not skip** — pitch **R** outline + tier tags | Primary |
+| Mon | Half Lec 3 + diagram skeleton | fundamentals |
+| Tue | LC 34 only | LC |
+| Wed | MHA drill only | fundamentals |
+| Thu | Pitch X metric only | Primary **X** |
+| Sun | **1** outreach + story **1** only | Primary |
 
 ---
 
 ## Sync with `lc` INTERVIEW_PLAN
 
-| `lc` day | This week |
+| `lc` day | Jul W2 |
 |---|---|
-| Day 1 Binary Search | Tue |
-| Day 2 Hash Maps | Wed |
-| Day 3 Two Pointers | Fri |
+| Day 3 Two Pointers | W1 done (125, 167) |
+| Day 4 Sliding Window | Fri · LC 3 |
+| Day 1 Binary Search extras | Tue · LC 34 · Fri · 704 refresh |
 
 ---
 
-## Next week preview (Jul W2)
+## Next week preview (Jul W3)
 
-Primary: attention/MHA drills · behavioral stories 1–4 · **2 outreach (Amazon Ads first)** · still **no P**.
+- Drills **03_transformer_block** → **04_mini_lm**
+- LC: Longest Substring deep, Min Window (76), Container Water (11)
+- Record **pitch R** (2 min)
+- Behavioral stories **5–8**
+
+---
+
+## Jul W1 retrospective
+
+| Done | Deferred to W2 |
+|---|---|
+| Lec 1–2 · §G-R Q1–10 | Lec 3 + diagram → **Mon** |
+| Pitch **R** + **X** drafts | Pitch **X** metric → **Thu** |
+| LC 125, 167, 704 | LC 34, 15, 3 |
+| | LinkedIn bullets · pipeline tags |
+| | Behavioral · outreach → **Sun** |
+
+Full W1 log: [JUL_W1.md](JUL_W1.md)
