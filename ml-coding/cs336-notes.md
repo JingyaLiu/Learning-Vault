@@ -94,23 +94,27 @@ y = reduce(x, "... hidden -> ...", "sum")
 
 **Goal:** fill **3 takeaways** + decoder diagram. Skip stability/MQA/long-context on first pass.
 
-| Phase | Time | What |
-|---|---|---|
+
+| Phase | Time   | What                                              |
+| ----- | ------ | ------------------------------------------------- |
 | **A** | 60 min | YouTube @ 1.25× — pause only at checkpoints below |
-| **B** | 15 min | Fill 3 takeaways + architecture bullets |
-| **C** | 15 min | Draw decoder stack from memory (Block 2) |
+| **B** | 15 min | Fill 3 takeaways + architecture bullets           |
+| **C** | 15 min | Draw decoder stack from memory (Block 2)          |
+
 
 #### Listen-for checkpoints (pause → one sentence in notes)
 
-| ~time | Topic | Your one-liner |
-|---|---|---|
-| 0:00 | Why survey many LMs instead of ablate everything? | |
-| 8:54 | **Pre-norm vs post-norm** — which do modern LMs use? | |
-| 20:16 | **FFN:** ReLU → GELU → **SwiGLU** — what's in one block? | |
-| 27:10 | Serial vs parallel block (attn then FFN) | |
-| 31:12 | **RoPE** — why relative position? | |
-| 43:36 | FFN dim ≈ **4× D** (or **8/3× D** with GLU) | |
-| 50:41 | **H heads**, Dh = D/H | |
+
+| ~time | Topic                                                    | Your one-liner                                                                                                                                                                                                         |
+| ----- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0:00  | Why survey many LMs instead of ablate everything?        | LM has different approach on dim, attention, prenorm postnorm and differnt combination, it is hard to say a standard format. Based on exp, data, model size etc. But there are some standard parameters for suggestion |
+| 8:54  | **Pre-norm vs post-norm** — which do modern LMs use?     | pre-norm on non residual block                                                                                                                                                                                         |
+| 20:16 | **FFN:** ReLU → GELU → **SwiGLU** — what's in one block? | swiglu                                                                                                                                                                                                                 |
+| 27:10 | Serial vs parallel block (attn then FFN)                 | seriel longer processing time but high acc,parallel sacrific acc at small model but catch up for larger one. it is about processing attention                                                                        |
+| 31:12 | **RoPE** — why relative position?                        | relative position save comp of embeddings and you don't have to know the absolute one                                                                                                                                  |
+| 43:36 | FFN dim ≈ **4× D** (or **8/3× D** with GLU)              |                                                                                                                                                                                                                        |
+| 50:41 | **H heads**, Dh = D/H                                    | h heads * head_dim = model dim                                                                                                                                                                                         |
+
 
 **Skip guilt-free (Tue drill covers this):** Z-loss, QK norm, MQA/GQA, sliding window (~1:05–1:28)
 
@@ -123,9 +127,9 @@ y = reduce(x, "... hidden -> ...", "sum")
 
 ### 3 takeaways
 
-1.
-2.
-3.
+
+
+
 
 ### Architecture
 
@@ -135,14 +139,16 @@ y = reduce(x, "... hidden -> ...", "sum")
 
 ### Key hyperparameters
 
-| Param | What it controls | Interview default |
-|---|---|---|
-| L (layers) | depth | more L = deeper reasoning, harder to train |
-| H (heads) | parallel attention paths | D = H × Dh |
-| D (model dim) | width | aspect ratio D/L ≈ 100 (rule of thumb) |
-| T_max (context) | max sequence length | longer T → O(T²) attention cost |
-| D_ff | FFN inner dim | ≈ 4D (SwiGLU: ≈ 8/3 × D) |
-| V (vocab) | tokenizer size | ~32k mono · 100k+ multilingual |
+
+| Param           | What it controls         | Interview default                          |
+| --------------- | ------------------------ | ------------------------------------------ |
+| L (layers)      | depth                    | more L = deeper reasoning, harder to train |
+| H (heads)       | parallel attention paths | D = H × Dh                                 |
+| D (model dim)   | width                    | aspect ratio D/L ≈ 100 (rule of thumb)     |
+| T_max (context) | max sequence length      | longer T → O(T²) attention cost            |
+| D_ff            | FFN inner dim            | ≈ 4D (SwiGLU: ≈ 8/3 × D)                   |
+| V (vocab)       | tokenizer size           | ~32k mono · 100k+ multilingual             |
+
 
 ### Decoder-only stack (draw from memory)
 
