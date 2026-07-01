@@ -5,7 +5,7 @@
 > **Branch:** `lc` for LC · this branch for ML/process  
 > **Prev week:** [JUL_W1.md](JUL_W1.md)
 
-**Last updated:** Mon Jul 14 · **Day 1 (Monday)** ← start here
+**Last updated:** Tue Jul 15 · **Day 2 (Tuesday)** ← start here
 
 ---
 
@@ -48,45 +48,16 @@
 
 ## Day by day
 
-### Monday · Day 1 ← **start here**
+### Monday · Day 1 ✅
 
 | Block | Time | Task | Done |
 |---|---|---|---|
-| **1** | 90 min | CS336 **Lec 3** @ 1.25× · [YouTube](https://www.youtube.com/watch?v=lVynu4bo1rY) · notes → [cs336-notes.md](../ml-coding/cs336-notes.md) | [ ] |
+| **1** | 90 min | CS336 **Lec 3** @ 1.25× · [YouTube](https://www.youtube.com/watch?v=lVynu4bo1rY) · notes → [cs336-notes.md](../ml-coding/cs336-notes.md) | [x] |
 | **2** | 30 min | **Decoder-only stack** from memory — template in notes | [ ] |
-
-**LC:** off · **No trace viewer** for Lec 3 (PDF + video only) · use **listen-for checkpoints** in notes
-
-#### Lec 3 focus
-
-- Decoder-only vs encoder-decoder — when each
-- Block = pre-norm → MHA (causal) → residual → pre-norm → FFN → residual
-- Hyperparameters: L layers, H heads, D model, context length T
-
-#### Block 2 · Decoder stack (draw after Lec 3)
-
-```
-Input token IDs (B, T)
-    ↓
-Token embed + positional (RoPE/learned)
-    ↓
-┌─ Transformer block × L ─────────────────┐
-│  Pre-norm → Multi-head self-attn (causal)│
-│  + residual                              │
-│  Pre-norm → FFN (SwiGLU)                 │
-│  + residual                              │
-└──────────────────────────────────────────┘
-    ↓
-Layer norm → LM head (D → V)
-    ↓
-Logits (B, T, V) → next-token CE loss
-```
-
-**Check aloud:** shapes `(B,T,D)` at embed and block output · why causal mask
 
 ---
 
-### Tuesday · Day 2
+### Tuesday · Day 2 ← **start here**
 
 | Block | Time | Task | Done |
 |---|---|---|---|

@@ -73,59 +73,18 @@ from typing import List
 
 
 def find_first(nums: List[int], target: int) -> int:
-    """
-    Find the leftmost index of target, or -1 if absent.
-    Time: O(log n), Space: O(1)
-    """
-    left, right = 0, len(nums) - 1
-    result = -1
-
-    while left <= right:
-        mid = left + (right - left) // 2
-
-        if nums[mid] == target:
-            result = mid
-            right = mid - 1  # keep searching LEFT
-        elif nums[mid] < target:
-            left = mid + 1
-        else:
-            right = mid - 1
-
-    return result
+    """TODO: cold re-solve — leftmost index of target, or -1."""
+    raise NotImplementedError
 
 
 def find_last(nums: List[int], target: int) -> int:
-    """
-    Find the rightmost index of target, or -1 if absent.
-    Time: O(log n), Space: O(1)
-    """
-    left, right = 0, len(nums) - 1
-    result = -1
-
-    while left <= right:
-        mid = left + (right - left) // 2
-
-        if nums[mid] == target:
-            result = mid
-            left = mid + 1  # keep searching RIGHT
-        elif nums[mid] < target:
-            left = mid + 1
-        else:
-            right = mid - 1
-
-    return result
+    """TODO: cold re-solve — rightmost index of target, or -1."""
+    raise NotImplementedError
 
 
 def search_range(nums: List[int], target: int) -> List[int]:
-    """
-    Return [first, last] positions of target, or [-1, -1] if not found.
-    Time: O(log n), Space: O(1)
-    """
-    first = find_first(nums, target)
-    if first == -1:
-        return [-1, -1]
-    last = find_last(nums, target)
-    return [first, last]
+    """TODO: combine find_first + find_last."""
+    raise NotImplementedError
 
 
 class Solution:
