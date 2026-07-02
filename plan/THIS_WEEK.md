@@ -5,7 +5,7 @@
 > **Branch:** `lc` for LC · this branch for ML/process  
 > **Prev week:** [JUL_W1.md](JUL_W1.md)
 
-**Last updated:** Tue Jul 15 · **Day 2 (Tuesday)** ← start here
+**Last updated:** Wed Jul 16 · **Day 3 (Wednesday)** ← start here
 
 ---
 
@@ -57,31 +57,61 @@
 
 ---
 
-### Tuesday · Day 2 ← **start here**
+### Tuesday · Day 2 · partial
 
 | Block | Time | Task | Done |
 |---|---|---|---|
-| **1** | 30 min | LC **34** Find First and Last Position · [02_search_first_last.py](../binary-search/problems/02_search_first_last.py) · cold | [ ] |
-| **2** | 60 min | Drill **01_attention** · [01_attention.py](../ml-coding/drills/01_attention.py) · no AI | [ ] |
+| **1** | 30 min | LC **34** Find First and Last Position · [02_search_first_last.py](../binary-search/problems/02_search_first_last.py) · cold | [~] |
+| **2** | 60 min | Drill **01_attention** · [01_attention.py](../ml-coding/drills/01_attention.py) · no AI | [~] |
 
-**Pattern preview (LC 34):** left/right boundary binary search · `result` + shrink left or right on equal · differs from 704's `left <= right` exact match
-
-**Drill pass criteria:** `_test()` green · explain QKᵀ/√d · mask multiply · softmax axis
-
-Log time in [practice-log.md](../ml-coding/practice-log.md).
+**Carry-over:** finish `find_last` + `search_range` · fix attention (`Dh` undefined, QK einsum) · run tests
 
 ---
 
-### Wednesday · Day 3
+### Wednesday · Day 3 ← **start here**
 
 | Block | Time | Task | Done |
 |---|---|---|---|
-| **1** | 45 min | LC **15** 3Sum · sort + two pointers · [02_triplet_sum.py](../two-pointer/problems/02_triplet_sum.py) | [ ] |
-| **2** | 60 min | Drill **02_mha** · [02_mha.py](../ml-coding/drills/02_mha.py) | [ ] |
+| **1** | 45 min | LC **15** 3Sum · sort + two pointers · [02_triplet_sum.py](../two-pointer/problems/02_triplet_sum.py) · cold | [ ] |
+| **2** | 60 min | Drill **02_mha** · [02_mha.py](../ml-coding/drills/02_mha.py) · no AI | [ ] |
 
-**3Sum sketch:** sort `nums` · for each `i`: `l=i+1`, `r=n-1` · skip dupes at `i`, `l`, `r`
+#### Block 1 · LC 15 — use 5-step process
 
-**MHA:** split D into H heads · per-head attention · concat · W_o projection
+1. **UNDERSTAND:** all unique triplets `[a,b,c]` where `a+b+c=0`
+2. **RECOGNIZE:** sort → fix `i` → two-pointer on rest (2Sum variant)
+3. **PLAN:** skip dupes at `i`, `l`, `r` · break if `nums[i] > 0`
+4. **CODE:** `target = -nums[i]` · `l=i+1`, `r=n-1`
+5. **VERIFY:** `[-1,0,1,2,-1,-4]` → `[[-1,-1,2],[-1,0,1]]` · `[0,0,0]` · empty
+
+```python
+nums.sort()
+for i in range(n - 2):
+    if i > 0 and nums[i] == nums[i-1]: continue
+    if nums[i] > 0: break
+    l, r = i + 1, n - 1
+    while l < r:
+        s = nums[l] + nums[r]
+        if s == -nums[i]:
+            result.append([nums[i], nums[l], nums[r]])
+            # skip dupes at l, r; then l += 1; r -= 1
+        elif s < -nums[i]: l += 1
+        else: r -= 1
+```
+
+**Test:** `python3 two-pointer/problems/02_triplet_sum.py`
+
+#### Block 2 · MHA drill
+
+**Build on Tue attention** — implement `MultiHeadAttention` in [02_mha.py](../ml-coding/drills/02_mha.py):
+
+1. `W_q, W_k, W_v, W_o` — each `nn.Linear(d_model, d_model)`
+2. Reshape: `(B,T,D)` → `(B,H,T,Dh)` where `Dh = D // H`
+3. Per-head scaled dot-product attention (reuse your drill 01 logic)
+4. Concat heads → `(B,T,D)` → `W_o`
+
+**Pass:** `python3 ml-coding/drills/02_mha.py` prints `ok (2, 5, 64)`
+
+**Tue carry-over (15 min if stuck):** LC 34 `find_last` · attention `Dh = q.size(-1)` · scores = `q @ k.transpose(-2,-1)`
 
 ---
 

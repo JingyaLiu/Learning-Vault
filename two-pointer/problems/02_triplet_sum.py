@@ -86,49 +86,32 @@ from typing import List
 
 
 def three_sum(nums: List[int]) -> List[List[int]]:
-    """
-    Find all unique triplets that sum to zero.
-    Uses staged traversal: fix one, two-pointer for remaining.
-    """
-    nums.sort()  # O(n log n) - enables two-pointer technique
+    """TODO: cold re-solve — all unique triplets summing to 0."""
+
+    nums.sort()
     result = []
-    n = len(nums)
-    
-    for i in range(n - 2):  # Leave room for left and right pointers
-        # Skip duplicates for the fixed pointer
+    for i in range(len(nums) - 2):
         if i > 0 and nums[i] == nums[i - 1]:
             continue
-        
-        # Early termination: if smallest value > 0, no solution possible
         if nums[i] > 0:
             break
-        
-        # Two-pointer search for pair summing to -nums[i]
+
         target = -nums[i]
-        left, right = i + 1, n - 1
-        
+        left, right = i + 1, len(nums) - 1
         while left < right:
-            current_sum = nums[left] + nums[right]
-            
-            if current_sum == target:
+            s = nums[left] + nums[right]
+            if s == target:
                 result.append([nums[i], nums[left], nums[right]])
-                
-                # Skip duplicates for left pointer
-                while left < right and nums[left] == nums[left + 1]:
-                    left += 1
-                # Skip duplicates for right pointer
-                while left < right and nums[right] == nums[right - 1]:
-                    right -= 1
-                
-                # Move both pointers after finding a valid triplet
                 left += 1
                 right -= 1
-                
-            elif current_sum < target:
-                left += 1   # Need larger sum
+                while left < right and nums[left] == nums[left - 1]:
+                    left += 1
+                while left < right and nums[right] == nums[right + 1]:
+                    right -= 1
+            elif s < target:
+                left += 1
             else:
-                right -= 1  # Need smaller sum
-    
+                right -= 1
     return result
 
 
